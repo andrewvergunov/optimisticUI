@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A319" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Comparison View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ComparisonViewController" customModule="OptimisticUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpN-a2-Ypg">
+                                <rect key="frame" x="187" y="0.0" width="1" height="310"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="Fjl-rq-ZlW"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Optimistic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GA-rc-Brc">
+                                <rect key="frame" x="26" y="30" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Realistic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f59-18-Kan">
+                                <rect key="frame" x="198" y="30" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qr0-Js-zZ7" customClass="OptimisticLikeButton" customModule="OptimisticUI" customModuleProvider="target">
+                                <rect key="frame" x="51.5" y="66" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qr0-Js-zZ7" secondAttribute="height" multiplier="1:1" id="Lbd-dy-TPd"/>
+                                    <constraint firstAttribute="width" constant="100" id="dcH-XB-CyW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCM-sK-RDj" customClass="RealisticLikeButton" customModule="OptimisticUI" customModuleProvider="target">
+                                <rect key="frame" x="223.5" y="66" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2Yt-FX-HLc"/>
+                                    <constraint firstAttribute="width" secondItem="PCM-sK-RDj" secondAttribute="height" multiplier="1:1" id="Npr-Es-Ocf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1H-N8-AER" customClass="RealisticMessage" customModule="OptimisticUI" customModuleProvider="target">
+                                <rect key="frame" x="198" y="196" width="151" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="I1H-N8-AER" secondAttribute="height" multiplier="151:33" id="Acs-Eu-ZB7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2rT-cx-qwg" customClass="OptimisticMessage" customModule="OptimisticUI" customModuleProvider="target">
+                                <rect key="frame" x="26" y="196" width="151" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2rT-cx-qwg" secondAttribute="height" multiplier="151:33" id="Uz5-a3-jyF"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVE-FZ-u5f">
+                                <rect key="frame" x="169" y="318" width="36" height="30"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendMessageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGk-e3-OCc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qr0-Js-zZ7" firstAttribute="centerX" secondItem="5GA-rc-Brc" secondAttribute="centerX" id="1sN-L5-GrC"/>
+                            <constraint firstItem="fpN-a2-Ypg" firstAttribute="leading" secondItem="5GA-rc-Brc" secondAttribute="trailing" constant="10" id="2yw-At-5XG"/>
+                            <constraint firstItem="fpN-a2-Ypg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4nr-Rv-p9P"/>
+                            <constraint firstItem="fpN-a2-Ypg" firstAttribute="leading" secondItem="2rT-cx-qwg" secondAttribute="trailing" constant="10" id="88X-9v-jsB"/>
+                            <constraint firstItem="f59-18-Kan" firstAttribute="leading" secondItem="fpN-a2-Ypg" secondAttribute="trailing" constant="10" id="A9H-7b-S79"/>
+                            <constraint firstItem="fpN-a2-Ypg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="AMW-EE-Lp2"/>
+                            <constraint firstItem="2rT-cx-qwg" firstAttribute="top" secondItem="qr0-Js-zZ7" secondAttribute="bottom" constant="30" id="Hbh-hR-Bir"/>
+                            <constraint firstItem="qr0-Js-zZ7" firstAttribute="top" secondItem="5GA-rc-Brc" secondAttribute="bottom" constant="15" id="Khe-C8-3R6"/>
+                            <constraint firstItem="PCM-sK-RDj" firstAttribute="centerX" secondItem="f59-18-Kan" secondAttribute="centerX" id="NGZ-iW-h03"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I1H-N8-AER" secondAttribute="trailing" constant="10" id="NKl-pG-0mv"/>
+                            <constraint firstItem="LVE-FZ-u5f" firstAttribute="top" secondItem="fpN-a2-Ypg" secondAttribute="bottom" constant="8" id="P6T-9M-3sO"/>
+                            <constraint firstItem="f59-18-Kan" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="PPp-rs-7RV"/>
+                            <constraint firstItem="I1H-N8-AER" firstAttribute="top" secondItem="PCM-sK-RDj" secondAttribute="bottom" constant="30" id="eaP-24-Nm8"/>
+                            <constraint firstItem="I1H-N8-AER" firstAttribute="leading" secondItem="fpN-a2-Ypg" secondAttribute="trailing" constant="10" id="gaJ-NO-oUf"/>
+                            <constraint firstItem="LVE-FZ-u5f" firstAttribute="top" secondItem="I1H-N8-AER" secondAttribute="bottom" constant="89" id="ikT-IU-R4b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f59-18-Kan" secondAttribute="trailing" constant="10" id="p6k-Ub-c5G"/>
+                            <constraint firstItem="LVE-FZ-u5f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pLu-Dh-oPB"/>
+                            <constraint firstItem="5GA-rc-Brc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="pfF-Gn-rl9"/>
+                            <constraint firstItem="2rT-cx-qwg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="pnJ-ty-Xbs"/>
+                            <constraint firstItem="PCM-sK-RDj" firstAttribute="top" secondItem="f59-18-Kan" secondAttribute="bottom" constant="15" id="sv7-bt-RdG"/>
+                            <constraint firstItem="5GA-rc-Brc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="y3R-Mj-hnm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="optimisticMessage" destination="2rT-cx-qwg" id="OGE-kI-2v6"/>
+                        <outlet property="realisticMessage" destination="I1H-N8-AER" id="HwE-al-cFR"/>
+                        <outlet property="successOptimisticLike" destination="qr0-Js-zZ7" id="uQN-f7-bum"/>
+                        <outlet property="successRealisticLike" destination="PCM-sK-RDj" id="0sR-sl-Jr3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+</document>

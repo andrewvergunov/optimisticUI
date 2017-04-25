@@ -40,7 +40,7 @@ class LikeButton: UIView {
             unsetLike()
         }
     }
-    
+
     private func setLike() {
         self.isLiked = true
         self.likeAnimationView.animationProgress = startingAnimationProgress
@@ -50,5 +50,5 @@ class LikeButton: UIView {
     private func unsetLike() {
         self.isLiked = false
         self.likeAnimationView.animationProgress = unlikeAnimztionProgress
-    }    
+    }
 }

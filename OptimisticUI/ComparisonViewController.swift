@@ -13,6 +13,8 @@ class ComparisonViewController: UIViewController {
     @IBOutlet weak var optimisticMessage: OptimisticMessage!
     @IBOutlet weak var successOptimisticLike: OptimisticLikeButton!
     @IBOutlet weak var successRealisticLike: RealisticLikeButton!
+    @IBOutlet weak var failureOptimisticLike: OptimisticLikeButton!
+    @IBOutlet weak var failureRealisticLike: RealisticLikeButton!
 
     private let errorMessage = "Error occured"
     
@@ -21,10 +23,18 @@ class ComparisonViewController: UIViewController {
     }
     
     private func configureLikeButtons() {
-        let optimisticLikeRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTappedOptimisticLike(recognizer:)))
-        let realisticLikeRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTappedRealisticLike(recognizer:)))
-        self.successOptimisticLike.addGestureRecognizer(optimisticLikeRecognizer)
-        self.successRealisticLike.addGestureRecognizer(realisticLikeRecognizer)
+        self.successOptimisticLike.addGestureRecognizer(optimisticLikeRecognizer())
+        self.successRealisticLike.addGestureRecognizer(realisticLikeRecognizer())
+        self.failureRealisticLike.addGestureRecognizer(realisticLikeRecognizer())
+        self.failureOptimisticLike.addGestureRecognizer(optimisticLikeRecognizer())
+    }
+    
+    private func optimisticLikeRecognizer() -> UITapGestureRecognizer {
+        return UITapGestureRecognizer(target: self, action: #selector(didTappedOptimisticLike(recognizer:)))
+    }
+    
+    private func realisticLikeRecognizer() -> UITapGestureRecognizer {
+        return UITapGestureRecognizer(target: self, action: #selector(didTappedRealisticLike(recognizer:)))
     }
 
     @objc private func didTappedOptimisticLike(recognizer: UITapGestureRecognizer) {
@@ -32,25 +42,41 @@ class ComparisonViewController: UIViewController {
         let optimisticLike = recognizer.view as! OptimisticLikeButton
         optimisticLike.set(liked: !optimisticLike.isLiked)
         
-        server.sendSuccessLike { (isSuccess) in
+        let completionBlock: ((Bool) -> Void) = { (isSuccess) in
             if !isSuccess {
                 optimisticLike.set(liked: !optimisticLike.isLiked)
             }
+        }
+        
+        if optimisticLike == self.successOptimisticLike {
+            server.sendSuccessLike(completion: completionBlock)
+        } else {
+            server.sendFailureLike(completion: completionBlock)
         }
     }
     
     @objc private func didTappedRealisticLike(recognizer: UITapGestureRecognizer) {
         let server = ServerMock()
         let realisticLike = recognizer.view as! RealisticLikeButton
+        realisticLike.hideError()
         realisticLike.startProgress()
-        
-        server.sendSuccessLike { (isSuccess) in
+
+        let completionBlock: ((Bool) -> Void) = { (isSuccess) in
             realisticLike.stopProgress()
             
             if isSuccess {
                 realisticLike.set(liked: !realisticLike.isLiked)
+            } else {
+                realisticLike.show(failureMessage: self.errorMessage)
             }
         }
+        
+        if realisticLike == self.successRealisticLike {
+            server.sendSuccessLike(completion: completionBlock)
+        } else {
+            server.sendFailureLike(completion: completionBlock)
+        }
+        
     }
     
     @IBAction func sendMessageAction(_ sender: Any) {

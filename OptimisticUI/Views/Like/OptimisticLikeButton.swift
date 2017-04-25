@@ -11,5 +11,5 @@ import UIKit
 import Lottie
 
 class OptimisticLikeButton: LikeButton {
-    
+
 }

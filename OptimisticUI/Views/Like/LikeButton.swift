@@ -13,6 +13,8 @@ import Lottie
 class LikeButton: UIView {
     var isLiked: Bool = false
     let likeAnimationView: LOTAnimationView
+    private let startingAnimationProgress: CGFloat = 0.25
+    private let unlikeAnimztionProgress: CGFloat = 0
     
     required init?(coder aDecoder: NSCoder) {
         self.likeAnimationView = LikeButton.likeAnimation()
@@ -41,12 +43,12 @@ class LikeButton: UIView {
     
     private func setLike() {
         self.isLiked = true
-        self.likeAnimationView.animationProgress = 0.1
+        self.likeAnimationView.animationProgress = startingAnimationProgress
         self.likeAnimationView.play()
     }
     
     private func unsetLike() {
         self.isLiked = false
-        self.likeAnimationView.animationProgress = 0
+        self.likeAnimationView.animationProgress = unlikeAnimztionProgress
     }    
 }

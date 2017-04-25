@@ -14,15 +14,10 @@ class ComparisonViewController: UIViewController {
     @IBOutlet weak var successOptimisticLike: OptimisticLikeButton!
     @IBOutlet weak var successRealisticLike: RealisticLikeButton!
 
-    override func viewDidLoad() {
-        confgureMessages()
-        configureLikeButtons()
-    }
+    private let errorMessage = "Error occured"
     
-    @IBAction func sendMessageAction(_ sender: Any) {
-        let message = "Hello world!"
-        self.optimisticMessage.show(message: message)
-        self.realisticMessage.show(message: message)
+    override func viewDidLoad() {
+        configureLikeButtons()
     }
     
     private func configureLikeButtons() {
@@ -31,11 +26,7 @@ class ComparisonViewController: UIViewController {
         self.successOptimisticLike.addGestureRecognizer(optimisticLikeRecognizer)
         self.successRealisticLike.addGestureRecognizer(realisticLikeRecognizer)
     }
-    
-    private func confgureMessages() {
 
-    }
-    
     @objc private func didTappedOptimisticLike(recognizer: UITapGestureRecognizer) {
         let server = ServerMock()
         let optimisticLike = recognizer.view as! OptimisticLikeButton
@@ -62,4 +53,42 @@ class ComparisonViewController: UIViewController {
         }
     }
     
+    @IBAction func sendMessageAction(_ sender: Any) {
+        let message = "Hello world!"
+        showRealistic(message: message)
+        showOptimistic(message: message)
+    }
+    
+    private func showOptimistic(message: String) {
+        self.optimisticMessage.hideDown()
+        self.optimisticMessage.show(message: message)
+        self.optimisticMessage.startProgress()
+        
+        let server = ServerMock()
+        
+        server.sendSuccess(message: message) { (wasSent) in
+            self.optimisticMessage.stopProgress()
+
+            if !wasSent {
+                self.optimisticMessage.show(message: self.errorMessage)
+            }
+        }
+    }
+    
+    private func showRealistic(message: String) {
+        self.realisticMessage.hideDown()
+        self.realisticMessage.startProgress()
+        
+        let server = ServerMock()
+        
+        server.sendSuccess(message: message) { (wasSent) in
+            self.realisticMessage.stopProgress()
+
+            if wasSent {
+                self.realisticMessage.show(message: message)
+            } else {
+                self.realisticMessage.showError(errorMessage: self.errorMessage)
+            }
+        }
+    }
 }

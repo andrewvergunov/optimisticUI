@@ -9,19 +9,29 @@
 import Foundation
 
 class ServerMock {
-    let serverDelay = 5
+    let serverDelay = 2
+    typealias CompletionBlock = ((Bool) -> Void)
     
-    func sendSuccessLike(completion: @escaping ((Bool) -> Void)) {
-        let deadlineTime = DispatchTime.now() + .seconds(serverDelay)
-        DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
-            completion(true)
-        }
+    func sendSuccessLike(completion: @escaping CompletionBlock) {
+        handle(success: true, completionBlock: completion)
     }
     
-    func sendFailureLike(completion: @escaping ((Bool) -> Void)) {
+    func sendFailureLike(completion: @escaping CompletionBlock) {
+        handle(success: false, completionBlock: completion)
+    }
+    
+    func sendSuccess(message: String, completion: @escaping CompletionBlock) {
+        handle(success: true, completionBlock: completion)
+    }
+    
+    func sendFailure(message: String, completion: @escaping CompletionBlock) {
+        handle(success: false, completionBlock: completion)
+    }
+    
+    private func handle(success: Bool, completionBlock: @escaping CompletionBlock) {
         let deadlineTime = DispatchTime.now() + .seconds(serverDelay)
         DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
-            completion(false)
+            completionBlock(success)
         }
     }
 }

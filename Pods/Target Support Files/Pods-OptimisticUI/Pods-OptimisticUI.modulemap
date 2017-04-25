@@ -1,0 +1,6 @@
+framework module Pods_OptimisticUI {
+  umbrella header "Pods-OptimisticUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E3DB4C35116D983DA442F8 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF584D6357AB57CE39A61CB /* Pods_OptimisticUI.framework */; };
+		E174FA001EAF864C00D9DD94 /* ServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174F9FF1EAF864C00D9DD94 /* ServerMock.swift */; };
+		E1FA29CB1EADE7B70020E48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA29CA1EADE7B70020E48F /* AppDelegate.swift */; };
+		E1FA29CD1EADE7B70020E48F /* ComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA29CC1EADE7B70020E48F /* ComparisonViewController.swift */; };
+		E1FA29D01EADE7B70020E48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29CE1EADE7B70020E48F /* Main.storyboard */; };
+		E1FA29D51EADE7B70020E48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29D31EADE7B70020E48F /* LaunchScreen.storyboard */; };
+		E1FA2A061EAE11940020E48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29E61EAE11940020E48F /* Assets.xcassets */; };
+		E1FA2A071EAE11940020E48F /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29E81EAE11940020E48F /* A.json */; };
+		E1FA2A081EAE11940020E48F /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29E91EAE11940020E48F /* Apostrophe.json */; };
+		E1FA2A091EAE11940020E48F /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EA1EAE11940020E48F /* B.json */; };
+		E1FA2A0A1EAE11940020E48F /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EB1EAE11940020E48F /* BlinkingCursor.json */; };
+		E1FA2A0B1EAE11940020E48F /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EC1EAE11940020E48F /* C.json */; };
+		E1FA2A0C1EAE11940020E48F /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29ED1EAE11940020E48F /* Colon.json */; };
+		E1FA2A0D1EAE11940020E48F /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EE1EAE11940020E48F /* Comma.json */; };
+		E1FA2A0E1EAE11940020E48F /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EF1EAE11940020E48F /* D.json */; };
+		E1FA2A0F1EAE11940020E48F /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F01EAE11940020E48F /* E.json */; };
+		E1FA2A101EAE11940020E48F /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F11EAE11940020E48F /* F.json */; };
+		E1FA2A111EAE11940020E48F /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F21EAE11940020E48F /* G.json */; };
+		E1FA2A121EAE11940020E48F /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F31EAE11940020E48F /* H.json */; };
+		E1FA2A131EAE11940020E48F /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F41EAE11940020E48F /* I.json */; };
+		E1FA2A141EAE11940020E48F /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F51EAE11940020E48F /* J.json */; };
+		E1FA2A151EAE11940020E48F /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F61EAE11940020E48F /* K.json */; };
+		E1FA2A161EAE11940020E48F /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F71EAE11940020E48F /* L.json */; };
+		E1FA2A171EAE11940020E48F /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F81EAE11940020E48F /* M.json */; };
+		E1FA2A181EAE11940020E48F /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F91EAE11940020E48F /* N.json */; };
+		E1FA2A191EAE11940020E48F /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FA1EAE11940020E48F /* O.json */; };
+		E1FA2A1A1EAE11940020E48F /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FB1EAE11940020E48F /* P.json */; };
+		E1FA2A1B1EAE11940020E48F /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FC1EAE11940020E48F /* Q.json */; };
+		E1FA2A1C1EAE11940020E48F /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FD1EAE11940020E48F /* R.json */; };
+		E1FA2A1D1EAE11940020E48F /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FE1EAE11940020E48F /* S.json */; };
+		E1FA2A1E1EAE11940020E48F /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FF1EAE11940020E48F /* T.json */; };
+		E1FA2A1F1EAE11940020E48F /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A001EAE11940020E48F /* U.json */; };
+		E1FA2A201EAE11940020E48F /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A011EAE11940020E48F /* V.json */; };
+		E1FA2A211EAE11940020E48F /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A021EAE11940020E48F /* W.json */; };
+		E1FA2A221EAE11940020E48F /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A031EAE11940020E48F /* X.json */; };
+		E1FA2A231EAE11940020E48F /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A041EAE11940020E48F /* Y.json */; };
+		E1FA2A241EAE11940020E48F /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A051EAE11940020E48F /* Z.json */; };
+		E1FA2A261EAE24D20020E48F /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A251EAE24D20020E48F /* LottieLogo1.json */; };
+		E1FA2A2C1EAE26CE0020E48F /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A2B1EAE26CE0020E48F /* TwitterHeart.json */; };
+		E1FA2A391EAE40A20020E48F /* OptimisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A371EAE40A20020E48F /* OptimisticLikeButton.swift */; };
+		E1FA2A3A1EAE40A20020E48F /* RealisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A381EAE40A20020E48F /* RealisticLikeButton.swift */; };
+		E1FA2A3C1EAE40AC0020E48F /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A3B1EAE40AC0020E48F /* LikeButton.swift */; };
+		E1FA2A3E1EAE40FA0020E48F /* RealisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A3D1EAE40FA0020E48F /* RealisticLikeButton.xib */; };
+		E1FA2A401EAE416D0020E48F /* OptimisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A3F1EAE416D0020E48F /* OptimisticLikeButton.xib */; };
+		E1FA2A431EAE50AB0020E48F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A421EAE50AB0020E48F /* Message.swift */; };
+		E1FA2A451EAE50B50020E48F /* OptimisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A441EAE50B50020E48F /* OptimisticMessage.swift */; };
+		E1FA2A471EAE50C00020E48F /* RealisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A461EAE50C00020E48F /* RealisticMessage.swift */; };
+		E1FA2A491EAE51510020E48F /* RealisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A481EAE51510020E48F /* RealisticMessage.xib */; };
+		E1FA2A4B1EAE515D0020E48F /* OptimisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A4A1EAE515D0020E48F /* OptimisticMessage.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1FA2A2A1EAE25390020E48F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EF584D6357AB57CE39A61CB /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F53B10F52D145DF2C75583 /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
+		49FBEC7808135A980B898F85 /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
+		E174F9FF1EAF864C00D9DD94 /* ServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMock.swift; sourceTree = "<group>"; };
+		E1FA29C71EADE7B70020E48F /* OptimisticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimisticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FA29CA1EADE7B70020E48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1FA29CC1EADE7B70020E48F /* ComparisonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonViewController.swift; sourceTree = "<group>"; };
+		E1FA29CF1EADE7B70020E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FA29D41EADE7B70020E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FA29D61EADE7B70020E48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FA29E61EAE11940020E48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FA29E81EAE11940020E48F /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		E1FA29E91EAE11940020E48F /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		E1FA29EA1EAE11940020E48F /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		E1FA29EB1EAE11940020E48F /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		E1FA29EC1EAE11940020E48F /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		E1FA29ED1EAE11940020E48F /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		E1FA29EE1EAE11940020E48F /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		E1FA29EF1EAE11940020E48F /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		E1FA29F01EAE11940020E48F /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		E1FA29F11EAE11940020E48F /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		E1FA29F21EAE11940020E48F /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		E1FA29F31EAE11940020E48F /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		E1FA29F41EAE11940020E48F /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		E1FA29F51EAE11940020E48F /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		E1FA29F61EAE11940020E48F /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		E1FA29F71EAE11940020E48F /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		E1FA29F81EAE11940020E48F /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		E1FA29F91EAE11940020E48F /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		E1FA29FA1EAE11940020E48F /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		E1FA29FB1EAE11940020E48F /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		E1FA29FC1EAE11940020E48F /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		E1FA29FD1EAE11940020E48F /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		E1FA29FE1EAE11940020E48F /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		E1FA29FF1EAE11940020E48F /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		E1FA2A001EAE11940020E48F /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		E1FA2A011EAE11940020E48F /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		E1FA2A021EAE11940020E48F /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		E1FA2A031EAE11940020E48F /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		E1FA2A041EAE11940020E48F /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		E1FA2A051EAE11940020E48F /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		E1FA2A251EAE24D20020E48F /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		E1FA2A2B1EAE26CE0020E48F /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		E1FA2A371EAE40A20020E48F /* OptimisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticLikeButton.swift; sourceTree = "<group>"; };
+		E1FA2A381EAE40A20020E48F /* RealisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticLikeButton.swift; sourceTree = "<group>"; };
+		E1FA2A3B1EAE40AC0020E48F /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		E1FA2A3D1EAE40FA0020E48F /* RealisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticLikeButton.xib; sourceTree = "<group>"; };
+		E1FA2A3F1EAE416D0020E48F /* OptimisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticLikeButton.xib; sourceTree = "<group>"; };
+		E1FA2A421EAE50AB0020E48F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E1FA2A441EAE50B50020E48F /* OptimisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticMessage.swift; sourceTree = "<group>"; };
+		E1FA2A461EAE50C00020E48F /* RealisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticMessage.swift; sourceTree = "<group>"; };
+		E1FA2A481EAE51510020E48F /* RealisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticMessage.xib; sourceTree = "<group>"; };
+		E1FA2A4A1EAE515D0020E48F /* OptimisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticMessage.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FA29C41EADE7B70020E48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E3DB4C35116D983DA442F8 /* Pods_OptimisticUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C38B917BD1BD32D6F5654C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49FBEC7808135A980B898F85 /* Pods-OptimisticUI.debug.xcconfig */,
+				27F53B10F52D145DF2C75583 /* Pods-OptimisticUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC2562080F68002DD51451F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF584D6357AB57CE39A61CB /* Pods_OptimisticUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FA29BE1EADE7B70020E48F = {
+			isa = PBXGroup;
+			children = (
+				E1FA29C91EADE7B70020E48F /* OptimisticUI */,
+				E1FA29C81EADE7B70020E48F /* Products */,
+				E1FA29DC1EADE82B0020E48F /* Libs */,
+				4C38B917BD1BD32D6F5654C4 /* Pods */,
+				DC2562080F68002DD51451F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FA29C81EADE7B70020E48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA29C71EADE7B70020E48F /* OptimisticUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FA29C91EADE7B70020E48F /* OptimisticUI */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA29CA1EADE7B70020E48F /* AppDelegate.swift */,
+				E1FA29CC1EADE7B70020E48F /* ComparisonViewController.swift */,
+				E174F9FF1EAF864C00D9DD94 /* ServerMock.swift */,
+				E1FA2A311EAE40770020E48F /* Views */,
+				E1FA29CE1EADE7B70020E48F /* Main.storyboard */,
+				E1FA29D31EADE7B70020E48F /* LaunchScreen.storyboard */,
+				E1FA29D61EADE7B70020E48F /* Info.plist */,
+				E1FA29E51EAE11940020E48F /* Assets */,
+			);
+			path = OptimisticUI;
+			sourceTree = "<group>";
+		};
+		E1FA29DC1EADE82B0020E48F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		E1FA29E51EAE11940020E48F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA29E61EAE11940020E48F /* Assets.xcassets */,
+				E1FA29E71EAE11940020E48F /* TypeFace */,
+				E1FA2A251EAE24D20020E48F /* LottieLogo1.json */,
+				E1FA2A2B1EAE26CE0020E48F /* TwitterHeart.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E1FA29E71EAE11940020E48F /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA29E81EAE11940020E48F /* A.json */,
+				E1FA29E91EAE11940020E48F /* Apostrophe.json */,
+				E1FA29EA1EAE11940020E48F /* B.json */,
+				E1FA29EB1EAE11940020E48F /* BlinkingCursor.json */,
+				E1FA29EC1EAE11940020E48F /* C.json */,
+				E1FA29ED1EAE11940020E48F /* Colon.json */,
+				E1FA29EE1EAE11940020E48F /* Comma.json */,
+				E1FA29EF1EAE11940020E48F /* D.json */,
+				E1FA29F01EAE11940020E48F /* E.json */,
+				E1FA29F11EAE11940020E48F /* F.json */,
+				E1FA29F21EAE11940020E48F /* G.json */,
+				E1FA29F31EAE11940020E48F /* H.json */,
+				E1FA29F41EAE11940020E48F /* I.json */,
+				E1FA29F51EAE11940020E48F /* J.json */,
+				E1FA29F61EAE11940020E48F /* K.json */,
+				E1FA29F71EAE11940020E48F /* L.json */,
+				E1FA29F81EAE11940020E48F /* M.json */,
+				E1FA29F91EAE11940020E48F /* N.json */,
+				E1FA29FA1EAE11940020E48F /* O.json */,
+				E1FA29FB1EAE11940020E48F /* P.json */,
+				E1FA29FC1EAE11940020E48F /* Q.json */,
+				E1FA29FD1EAE11940020E48F /* R.json */,
+				E1FA29FE1EAE11940020E48F /* S.json */,
+				E1FA29FF1EAE11940020E48F /* T.json */,
+				E1FA2A001EAE11940020E48F /* U.json */,
+				E1FA2A011EAE11940020E48F /* V.json */,
+				E1FA2A021EAE11940020E48F /* W.json */,
+				E1FA2A031EAE11940020E48F /* X.json */,
+				E1FA2A041EAE11940020E48F /* Y.json */,
+				E1FA2A051EAE11940020E48F /* Z.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		E1FA2A311EAE40770020E48F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA2A361EAE40A20020E48F /* Like */,
+				E1FA2A411EAE509E0020E48F /* Message */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1FA2A361EAE40A20020E48F /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA2A3B1EAE40AC0020E48F /* LikeButton.swift */,
+				E1FA2A371EAE40A20020E48F /* OptimisticLikeButton.swift */,
+				E1FA2A381EAE40A20020E48F /* RealisticLikeButton.swift */,
+				E1FA2A3D1EAE40FA0020E48F /* RealisticLikeButton.xib */,
+				E1FA2A3F1EAE416D0020E48F /* OptimisticLikeButton.xib */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		E1FA2A411EAE509E0020E48F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA2A421EAE50AB0020E48F /* Message.swift */,
+				E1FA2A441EAE50B50020E48F /* OptimisticMessage.swift */,
+				E1FA2A461EAE50C00020E48F /* RealisticMessage.swift */,
+				E1FA2A4A1EAE515D0020E48F /* OptimisticMessage.xib */,
+				E1FA2A481EAE51510020E48F /* RealisticMessage.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FA29C61EADE7B70020E48F /* OptimisticUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FA29D91EADE7B70020E48F /* Build configuration list for PBXNativeTarget "OptimisticUI" */;
+			buildPhases = (
+				810CD904D9D09F4DE92B5F90 /* [CP] Check Pods Manifest.lock */,
+				E1FA29C31EADE7B70020E48F /* Sources */,
+				E1FA29C41EADE7B70020E48F /* Frameworks */,
+				E1FA29C51EADE7B70020E48F /* Resources */,
+				2EA3A2D8E18E0AD294F14076 /* [CP] Embed Pods Frameworks */,
+				A79C06A44CAE057E7FD67090 /* [CP] Copy Pods Resources */,
+				E1FA2A2A1EAE25390020E48F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimisticUI;
+			productName = OptimisticUI;
+			productReference = E1FA29C71EADE7B70020E48F /* OptimisticUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FA29BF1EADE7B70020E48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NIX;
+				TargetAttributes = {
+					E1FA29C61EADE7B70020E48F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YQ63ZZYZV7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1FA29C21EADE7B70020E48F /* Build configuration list for PBXProject "OptimisticUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FA29BE1EADE7B70020E48F;
+			productRefGroup = E1FA29C81EADE7B70020E48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FA29C61EADE7B70020E48F /* OptimisticUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FA29C51EADE7B70020E48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA2A1C1EAE11940020E48F /* R.json in Resources */,
+				E1FA2A201EAE11940020E48F /* V.json in Resources */,
+				E1FA2A121EAE11940020E48F /* H.json in Resources */,
+				E1FA2A401EAE416D0020E48F /* OptimisticLikeButton.xib in Resources */,
+				E1FA2A101EAE11940020E48F /* F.json in Resources */,
+				E1FA2A091EAE11940020E48F /* B.json in Resources */,
+				E1FA2A1A1EAE11940020E48F /* P.json in Resources */,
+				E1FA2A151EAE11940020E48F /* K.json in Resources */,
+				E1FA2A491EAE51510020E48F /* RealisticMessage.xib in Resources */,
+				E1FA2A231EAE11940020E48F /* Y.json in Resources */,
+				E1FA2A0B1EAE11940020E48F /* C.json in Resources */,
+				E1FA29D51EADE7B70020E48F /* LaunchScreen.storyboard in Resources */,
+				E1FA2A141EAE11940020E48F /* J.json in Resources */,
+				E1FA2A191EAE11940020E48F /* O.json in Resources */,
+				E1FA2A221EAE11940020E48F /* X.json in Resources */,
+				E1FA2A0F1EAE11940020E48F /* E.json in Resources */,
+				E1FA2A1F1EAE11940020E48F /* U.json in Resources */,
+				E1FA2A0D1EAE11940020E48F /* Comma.json in Resources */,
+				E1FA2A131EAE11940020E48F /* I.json in Resources */,
+				E1FA2A211EAE11940020E48F /* W.json in Resources */,
+				E1FA2A241EAE11940020E48F /* Z.json in Resources */,
+				E1FA2A261EAE24D20020E48F /* LottieLogo1.json in Resources */,
+				E1FA2A1D1EAE11940020E48F /* S.json in Resources */,
+				E1FA2A3E1EAE40FA0020E48F /* RealisticLikeButton.xib in Resources */,
+				E1FA2A0A1EAE11940020E48F /* BlinkingCursor.json in Resources */,
+				E1FA2A161EAE11940020E48F /* L.json in Resources */,
+				E1FA2A061EAE11940020E48F /* Assets.xcassets in Resources */,
+				E1FA2A1B1EAE11940020E48F /* Q.json in Resources */,
+				E1FA2A081EAE11940020E48F /* Apostrophe.json in Resources */,
+				E1FA2A0E1EAE11940020E48F /* D.json in Resources */,
+				E1FA2A4B1EAE515D0020E48F /* OptimisticMessage.xib in Resources */,
+				E1FA2A2C1EAE26CE0020E48F /* TwitterHeart.json in Resources */,
+				E1FA2A171EAE11940020E48F /* M.json in Resources */,
+				E1FA2A1E1EAE11940020E48F /* T.json in Resources */,
+				E1FA29D01EADE7B70020E48F /* Main.storyboard in Resources */,
+				E1FA2A111EAE11940020E48F /* G.json in Resources */,
+				E1FA2A181EAE11940020E48F /* N.json in Resources */,
+				E1FA2A071EAE11940020E48F /* A.json in Resources */,
+				E1FA2A0C1EAE11940020E48F /* Colon.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EA3A2D8E18E0AD294F14076 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810CD904D9D09F4DE92B5F90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A79C06A44CAE057E7FD67090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FA29C31EADE7B70020E48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA29CD1EADE7B70020E48F /* ComparisonViewController.swift in Sources */,
+				E1FA2A3A1EAE40A20020E48F /* RealisticLikeButton.swift in Sources */,
+				E1FA2A391EAE40A20020E48F /* OptimisticLikeButton.swift in Sources */,
+				E1FA2A431EAE50AB0020E48F /* Message.swift in Sources */,
+				E1FA2A3C1EAE40AC0020E48F /* LikeButton.swift in Sources */,
+				E1FA29CB1EADE7B70020E48F /* AppDelegate.swift in Sources */,
+				E174FA001EAF864C00D9DD94 /* ServerMock.swift in Sources */,
+				E1FA2A471EAE50C00020E48F /* RealisticMessage.swift in Sources */,
+				E1FA2A451EAE50B50020E48F /* OptimisticMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1FA29CE1EADE7B70020E48F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FA29CF1EADE7B70020E48F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FA29D31EADE7B70020E48F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FA29D41EADE7B70020E48F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FA29D71EADE7B70020E48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1FA29D81EADE7B70020E48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FA29DA1EADE7B70020E48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FBEC7808135A980B898F85 /* Pods-OptimisticUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ63ZZYZV7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libs",
+				);
+				INFOPLIST_FILE = OptimisticUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1FA29DB1EADE7B70020E48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F53B10F52D145DF2C75583 /* Pods-OptimisticUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ63ZZYZV7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libs",
+				);
+				INFOPLIST_FILE = OptimisticUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FA29C21EADE7B70020E48F /* Build configuration list for PBXProject "OptimisticUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA29D71EADE7B70020E48F /* Debug */,
+				E1FA29D81EADE7B70020E48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FA29D91EADE7B70020E48F /* Build configuration list for PBXNativeTarget "OptimisticUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA29DA1EADE7B70020E48F /* Debug */,
+				E1FA29DB1EADE7B70020E48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FA29BF1EADE7B70020E48F /* Project object */;
+}

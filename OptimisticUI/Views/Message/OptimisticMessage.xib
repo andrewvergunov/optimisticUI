@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A319" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OptimisticMessage" customModule="OptimisticUI" customModuleProvider="target">
+            <connections>
+                <outlet property="indicator" destination="8De-XP-wKO" id="fMd-Us-QfM"/>
+                <outlet property="messageHeight" destination="yfW-rg-xje" id="fhI-XG-TR2"/>
+                <outlet property="messageLabel" destination="6XM-c7-SNd" id="Lju-No-WrS"/>
+                <outlet property="messageTopSpace" destination="1C2-m6-25j" id="jAp-68-DAY"/>
+                <outlet property="messageTrailingSpace" destination="BSX-2s-tft" id="y8F-rH-bOi"/>
+                <outlet property="messageView" destination="o8R-1d-BdO" id="qdd-fQ-swg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="bFv-xA-Dt2">
+            <rect key="frame" x="0.0" y="0.0" width="293" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8R-1d-BdO">
+                    <rect key="frame" x="0.0" y="0.0" width="253" height="57"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XM-c7-SNd">
+                            <rect key="frame" x="5" y="18" width="248" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="6XM-c7-SNd" firstAttribute="centerY" secondItem="o8R-1d-BdO" secondAttribute="centerY" id="5cx-GT-ok2"/>
+                        <constraint firstItem="6XM-c7-SNd" firstAttribute="leading" secondItem="o8R-1d-BdO" secondAttribute="leading" constant="5" id="BRh-8Y-xBe"/>
+                        <constraint firstAttribute="trailing" secondItem="6XM-c7-SNd" secondAttribute="trailing" id="h6m-tA-O72"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="8De-XP-wKO">
+                    <rect key="frame" x="258" y="18.5" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="o8R-1d-BdO" firstAttribute="leading" secondItem="bFv-xA-Dt2" secondAttribute="leading" id="0Xt-zd-eu9"/>
+                <constraint firstItem="o8R-1d-BdO" firstAttribute="top" secondItem="bFv-xA-Dt2" secondAttribute="top" id="1C2-m6-25j"/>
+                <constraint firstAttribute="trailing" secondItem="o8R-1d-BdO" secondAttribute="trailing" constant="40" id="BSX-2s-tft"/>
+                <constraint firstItem="8De-XP-wKO" firstAttribute="leading" secondItem="o8R-1d-BdO" secondAttribute="trailing" constant="5" id="FYG-tg-VG6"/>
+                <constraint firstItem="8De-XP-wKO" firstAttribute="centerY" secondItem="bFv-xA-Dt2" secondAttribute="centerY" id="MVl-Sj-PIv"/>
+                <constraint firstItem="o8R-1d-BdO" firstAttribute="height" secondItem="bFv-xA-Dt2" secondAttribute="height" id="yfW-rg-xje"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-157" y="-165"/>
+        </view>
+    </objects>
+</document>

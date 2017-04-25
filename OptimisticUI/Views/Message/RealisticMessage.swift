@@ -42,5 +42,4 @@ class RealisticMessage: Message {
     override func showError(errorMessage: String) {
         
     }
-    
 }

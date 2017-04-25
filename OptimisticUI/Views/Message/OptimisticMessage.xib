@@ -6,11 +6,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OptimisticMessage" customModule="OptimisticUI" customModuleProvider="target">
             <connections>
+                <outlet property="errorImage" destination="sKC-pc-Zdk" id="eRm-LW-ndX"/>
                 <outlet property="indicator" destination="8De-XP-wKO" id="fMd-Us-QfM"/>
                 <outlet property="messageHeight" destination="yfW-rg-xje" id="fhI-XG-TR2"/>
                 <outlet property="messageLabel" destination="6XM-c7-SNd" id="Lju-No-WrS"/>
@@ -49,6 +51,13 @@
                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="8De-XP-wKO">
                     <rect key="frame" x="258" y="18.5" width="20" height="20"/>
                 </activityIndicatorView>
+                <imageView hidden="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="error-256" translatesAutoresizingMaskIntoConstraints="NO" id="sKC-pc-Zdk">
+                    <rect key="frame" x="258" y="18" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="sKC-pc-Zdk" secondAttribute="height" multiplier="1:1" id="4rO-o8-B5E"/>
+                        <constraint firstAttribute="width" constant="20" id="mXV-Oj-Zgg"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -57,10 +66,15 @@
                 <constraint firstAttribute="trailing" secondItem="o8R-1d-BdO" secondAttribute="trailing" constant="40" id="BSX-2s-tft"/>
                 <constraint firstItem="8De-XP-wKO" firstAttribute="leading" secondItem="o8R-1d-BdO" secondAttribute="trailing" constant="5" id="FYG-tg-VG6"/>
                 <constraint firstItem="8De-XP-wKO" firstAttribute="centerY" secondItem="bFv-xA-Dt2" secondAttribute="centerY" id="MVl-Sj-PIv"/>
+                <constraint firstItem="sKC-pc-Zdk" firstAttribute="centerX" secondItem="8De-XP-wKO" secondAttribute="centerX" id="UTN-Ai-iBd"/>
+                <constraint firstItem="sKC-pc-Zdk" firstAttribute="centerY" secondItem="8De-XP-wKO" secondAttribute="centerY" id="pER-Xx-sfZ"/>
                 <constraint firstItem="o8R-1d-BdO" firstAttribute="height" secondItem="bFv-xA-Dt2" secondAttribute="height" id="yfW-rg-xje"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-157" y="-165"/>
+            <point key="canvasLocation" x="-157.5" y="-165.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="error-256" width="256" height="256"/>
+    </resources>
 </document>

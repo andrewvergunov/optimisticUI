@@ -20,12 +20,8 @@ class ServerMock {
         handle(success: false, completionBlock: completion)
     }
     
-    func sendSuccess(message: String, completion: @escaping CompletionBlock) {
-        handle(success: true, completionBlock: completion)
-    }
-    
-    func sendFailure(message: String, completion: @escaping CompletionBlock) {
-        handle(success: false, completionBlock: completion)
+    func send(success: Bool, message: String, completion: @escaping CompletionBlock) {
+        handle(success: success, completionBlock: completion)
     }
     
     private func handle(success: Bool, completionBlock: @escaping CompletionBlock) {

@@ -44,6 +44,8 @@ class Message: UIView {
     
     func showError(errorMessage: String) {}
     
+    func hideError() {}
+    
     func startProgress() {}
     
     func stopProgress() {}

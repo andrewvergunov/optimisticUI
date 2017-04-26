@@ -148,6 +148,7 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
         let alert = UIAlertController(title: error, message: "Message wasn't sent", preferredStyle: .actionSheet)
         let cancellAction = UIAlertAction(title: "Okay", style: .cancel) { (action) in
             alert.dismiss(animated: true, completion: nil)
+            message.hideError()
         }
         
         let resendAction = UIAlertAction(title: "Resend message", style: .default) { (action) in

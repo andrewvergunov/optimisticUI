@@ -4,5 +4,5 @@ use_frameworks!
 
 target 'OptimisticUI' do
   pod 'lottie-ios'
-  pod 'Alamofire'
+  pod 'SwiftLint'
 end

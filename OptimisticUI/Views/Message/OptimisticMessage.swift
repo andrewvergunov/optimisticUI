@@ -22,7 +22,7 @@ class OptimisticMessage: Message {
     @IBOutlet weak var messageHeight: NSLayoutConstraint!
     @IBOutlet weak var errorImage: UIImageView!
 
-    var delegate: OptimisticMessageDelegate?
+    weak var delegate: OptimisticMessageDelegate?
 
     private let messageTrailingOffset: CGFloat = 40
 

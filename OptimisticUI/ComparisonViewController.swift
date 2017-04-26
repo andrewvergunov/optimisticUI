@@ -19,12 +19,12 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
     @IBOutlet weak var failureRealisticMessage: RealisticMessage!
 
     private let errorMessage = "Error occured"
-    
+
     override func viewDidLoad() {
         configureLikeButtons()
         self.failureOptimisticMessage.delegate = self
     }
-    
+
     private func configureLikeButtons() {
         self.successOptimisticLike.addGestureRecognizer(optimisticLikeRecognizer())
         self.successRealisticLike.addGestureRecognizer(realisticLikeRecognizer())
@@ -42,7 +42,10 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
 
     @objc private func didTappedOptimisticLike(recognizer: UITapGestureRecognizer) {
         let server = ServerMock()
-        let optimisticLike = recognizer.view as! OptimisticLikeButton
+        guard let optimisticLike = recognizer.view as? OptimisticLikeButton else {
+            return
+        }
+
         optimisticLike.set(liked: !optimisticLike.isLiked)
 
         let completionBlock: ((Bool) -> Void) = { (isSuccess) in
@@ -60,7 +63,10 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
 
     @objc private func didTappedRealisticLike(recognizer: UITapGestureRecognizer) {
         let server = ServerMock()
-        let realisticLike = recognizer.view as! RealisticLikeButton
+        guard let realisticLike = recognizer.view as? RealisticLikeButton else {
+            return
+        }
+
         realisticLike.hideError()
         realisticLike.startProgress()
 
@@ -95,7 +101,7 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
 
     private func showOptimistic(success: Bool, message: String) {
         let optimisticMessage: OptimisticMessage
-        
+
         if success {
             optimisticMessage = self.optimisticMessage
         } else {
@@ -120,14 +126,13 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
 
     private func showRealistic(success: Bool, message: String) {
         let realisticMessage: RealisticMessage
-        
+
         if success {
             realisticMessage = self.realisticMessage
         } else {
             realisticMessage = self.failureRealisticMessage
         }
 
-        
         realisticMessage.hideDown()
         realisticMessage.startProgress()
 
@@ -143,28 +148,28 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
             }
         }
     }
-    
+
     private func showSending(message: Message, error: String) {
         let alert = UIAlertController(title: error, message: "Message wasn't sent", preferredStyle: .actionSheet)
-        let cancellAction = UIAlertAction(title: "Okay", style: .cancel) { (action) in
+        let cancellAction = UIAlertAction(title: "Okay", style: .cancel) { (_) in
             alert.dismiss(animated: true, completion: nil)
             message.hideError()
         }
-        
-        let resendAction = UIAlertAction(title: "Resend message", style: .default) { (action) in
+
+        let resendAction = UIAlertAction(title: "Resend message", style: .default) { (_) in
             if message.classForCoder == RealisticMessage.classForCoder() {
                 self.showRealistic(success: false, message: "Hello")
             } else {
                 self.showOptimistic(success: false, message: "Hello world")
             }
         }
-        
+
         alert.addAction(cancellAction)
         alert.addAction(resendAction)
-        
+
         self.present(alert, animated: true, completion: nil)
     }
-    
+
     func didTappedError(atMessage message: OptimisticMessage) {
         self.showSending(message: message, error: self.errorMessage)
     }

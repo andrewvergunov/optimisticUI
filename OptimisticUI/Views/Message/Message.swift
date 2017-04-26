@@ -10,43 +10,46 @@ import Foundation
 import UIKit
 
 class Message: UIView {
-    var contentView : UIView?
+    var contentView: UIView?
     let messageAppearingDuration = 0.2
 
     override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         xibSetup()
     }
-    
+
     func xibSetup() {
         contentView = loadViewFromNib()
-        contentView!.frame = bounds
-        contentView!.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
-        addSubview(contentView!)
+        contentView?.frame = bounds
+        contentView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+
+        if let unwrappedView = contentView {
+            addSubview(unwrappedView)
+        }
     }
-    
-    func loadViewFromNib() -> UIView! {
+
+    func loadViewFromNib() -> UIView? {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
-        let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
-        
+        let view = nib.instantiate(withOwner: self, options: nil)[0] as? UIView
+
         return view
     }
-    
+
     func show(message: String) {}
-    
+
     func hideDown() {}
-    
+
     func showError(errorMessage: String) {}
-    
+
     func hideError() {}
-    
+
     func startProgress() {}
-    
+
     func stopProgress() {}
 }

@@ -14,7 +14,7 @@ class RealisticLikeButton: LikeButton {
     @IBOutlet weak var indicator: UIActivityIndicatorView!
     @IBOutlet weak var errorLabel: UILabel!
 
-    var contentView : UIView?
+    var contentView: UIView?
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,9 +28,12 @@ class RealisticLikeButton: LikeButton {
 
     private func xibSetup() {
         contentView = loadViewFromNib()
-        contentView!.frame = bounds
-        contentView!.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
-        addSubview(contentView!)
+        contentView?.frame = bounds
+        contentView?.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+
+        if let unwrappedView = contentView {
+            addSubview(unwrappedView)
+        }
     }
 
     func startProgress() {
@@ -43,11 +46,11 @@ class RealisticLikeButton: LikeButton {
         self.indicator.stopAnimating()
     }
 
-    func loadViewFromNib() -> UIView! {
+    func loadViewFromNib() -> UIView? {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
-        let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
-        
+        let view = nib.instantiate(withOwner: self, options: nil)[0] as? UIView
+
         return view
     }
 

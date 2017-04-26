@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77E3DB4C35116D983DA442F8 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF584D6357AB57CE39A61CB /* Pods_OptimisticUI.framework */; };
-		E174FA001EAF864C00D9DD94 /* ServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174F9FF1EAF864C00D9DD94 /* ServerMock.swift */; };
-		E1FA29CB1EADE7B70020E48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA29CA1EADE7B70020E48F /* AppDelegate.swift */; };
-		E1FA29CD1EADE7B70020E48F /* ComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA29CC1EADE7B70020E48F /* ComparisonViewController.swift */; };
-		E1FA29D01EADE7B70020E48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29CE1EADE7B70020E48F /* Main.storyboard */; };
-		E1FA29D51EADE7B70020E48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29D31EADE7B70020E48F /* LaunchScreen.storyboard */; };
-		E1FA2A061EAE11940020E48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29E61EAE11940020E48F /* Assets.xcassets */; };
-		E1FA2A071EAE11940020E48F /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29E81EAE11940020E48F /* A.json */; };
-		E1FA2A081EAE11940020E48F /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29E91EAE11940020E48F /* Apostrophe.json */; };
-		E1FA2A091EAE11940020E48F /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EA1EAE11940020E48F /* B.json */; };
-		E1FA2A0A1EAE11940020E48F /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EB1EAE11940020E48F /* BlinkingCursor.json */; };
-		E1FA2A0B1EAE11940020E48F /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EC1EAE11940020E48F /* C.json */; };
-		E1FA2A0C1EAE11940020E48F /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29ED1EAE11940020E48F /* Colon.json */; };
-		E1FA2A0D1EAE11940020E48F /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EE1EAE11940020E48F /* Comma.json */; };
-		E1FA2A0E1EAE11940020E48F /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29EF1EAE11940020E48F /* D.json */; };
-		E1FA2A0F1EAE11940020E48F /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F01EAE11940020E48F /* E.json */; };
-		E1FA2A101EAE11940020E48F /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F11EAE11940020E48F /* F.json */; };
-		E1FA2A111EAE11940020E48F /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F21EAE11940020E48F /* G.json */; };
-		E1FA2A121EAE11940020E48F /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F31EAE11940020E48F /* H.json */; };
-		E1FA2A131EAE11940020E48F /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F41EAE11940020E48F /* I.json */; };
-		E1FA2A141EAE11940020E48F /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F51EAE11940020E48F /* J.json */; };
-		E1FA2A151EAE11940020E48F /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F61EAE11940020E48F /* K.json */; };
-		E1FA2A161EAE11940020E48F /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F71EAE11940020E48F /* L.json */; };
-		E1FA2A171EAE11940020E48F /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F81EAE11940020E48F /* M.json */; };
-		E1FA2A181EAE11940020E48F /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29F91EAE11940020E48F /* N.json */; };
-		E1FA2A191EAE11940020E48F /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FA1EAE11940020E48F /* O.json */; };
-		E1FA2A1A1EAE11940020E48F /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FB1EAE11940020E48F /* P.json */; };
-		E1FA2A1B1EAE11940020E48F /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FC1EAE11940020E48F /* Q.json */; };
-		E1FA2A1C1EAE11940020E48F /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FD1EAE11940020E48F /* R.json */; };
-		E1FA2A1D1EAE11940020E48F /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FE1EAE11940020E48F /* S.json */; };
-		E1FA2A1E1EAE11940020E48F /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA29FF1EAE11940020E48F /* T.json */; };
-		E1FA2A1F1EAE11940020E48F /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A001EAE11940020E48F /* U.json */; };
-		E1FA2A201EAE11940020E48F /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A011EAE11940020E48F /* V.json */; };
-		E1FA2A211EAE11940020E48F /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A021EAE11940020E48F /* W.json */; };
-		E1FA2A221EAE11940020E48F /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A031EAE11940020E48F /* X.json */; };
-		E1FA2A231EAE11940020E48F /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A041EAE11940020E48F /* Y.json */; };
-		E1FA2A241EAE11940020E48F /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A051EAE11940020E48F /* Z.json */; };
-		E1FA2A261EAE24D20020E48F /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A251EAE24D20020E48F /* LottieLogo1.json */; };
-		E1FA2A2C1EAE26CE0020E48F /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A2B1EAE26CE0020E48F /* TwitterHeart.json */; };
-		E1FA2A391EAE40A20020E48F /* OptimisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A371EAE40A20020E48F /* OptimisticLikeButton.swift */; };
-		E1FA2A3A1EAE40A20020E48F /* RealisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A381EAE40A20020E48F /* RealisticLikeButton.swift */; };
-		E1FA2A3C1EAE40AC0020E48F /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A3B1EAE40AC0020E48F /* LikeButton.swift */; };
-		E1FA2A3E1EAE40FA0020E48F /* RealisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A3D1EAE40FA0020E48F /* RealisticLikeButton.xib */; };
-		E1FA2A401EAE416D0020E48F /* OptimisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A3F1EAE416D0020E48F /* OptimisticLikeButton.xib */; };
-		E1FA2A431EAE50AB0020E48F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A421EAE50AB0020E48F /* Message.swift */; };
-		E1FA2A451EAE50B50020E48F /* OptimisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A441EAE50B50020E48F /* OptimisticMessage.swift */; };
-		E1FA2A471EAE50C00020E48F /* RealisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FA2A461EAE50C00020E48F /* RealisticMessage.swift */; };
-		E1FA2A491EAE51510020E48F /* RealisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A481EAE51510020E48F /* RealisticMessage.xib */; };
-		E1FA2A4B1EAE515D0020E48F /* OptimisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FA2A4A1EAE515D0020E48F /* OptimisticMessage.xib */; };
+		649CA26E1688F2376C1AFC66 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3663000D98F02C855FFB6061 /* Pods_OptimisticUI.framework */; };
+		E14503361EB0B0D40092DFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */; };
+		E14503371EB0B0D40092DFC1 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */; };
+		E14503381EB0B0D40092DFC1 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */; };
+		E14503391EB0B0D40092DFC1 /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FE1EB0B0D30092DFC1 /* A.json */; };
+		E145033A1EB0B0D40092DFC1 /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FF1EB0B0D30092DFC1 /* Apostrophe.json */; };
+		E145033B1EB0B0D40092DFC1 /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503001EB0B0D30092DFC1 /* B.json */; };
+		E145033C1EB0B0D40092DFC1 /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503011EB0B0D30092DFC1 /* BlinkingCursor.json */; };
+		E145033D1EB0B0D40092DFC1 /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503021EB0B0D30092DFC1 /* C.json */; };
+		E145033E1EB0B0D40092DFC1 /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503031EB0B0D30092DFC1 /* Colon.json */; };
+		E145033F1EB0B0D40092DFC1 /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503041EB0B0D30092DFC1 /* Comma.json */; };
+		E14503401EB0B0D40092DFC1 /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503051EB0B0D30092DFC1 /* D.json */; };
+		E14503411EB0B0D40092DFC1 /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503061EB0B0D30092DFC1 /* E.json */; };
+		E14503421EB0B0D40092DFC1 /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503071EB0B0D30092DFC1 /* F.json */; };
+		E14503431EB0B0D40092DFC1 /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503081EB0B0D30092DFC1 /* G.json */; };
+		E14503441EB0B0D40092DFC1 /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503091EB0B0D30092DFC1 /* H.json */; };
+		E14503451EB0B0D40092DFC1 /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = E145030A1EB0B0D30092DFC1 /* I.json */; };
+		E14503461EB0B0D40092DFC1 /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = E145030B1EB0B0D30092DFC1 /* J.json */; };
+		E14503471EB0B0D40092DFC1 /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = E145030C1EB0B0D30092DFC1 /* K.json */; };
+		E14503481EB0B0D40092DFC1 /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = E145030D1EB0B0D30092DFC1 /* L.json */; };
+		E14503491EB0B0D40092DFC1 /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = E145030E1EB0B0D30092DFC1 /* M.json */; };
+		E145034A1EB0B0D40092DFC1 /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = E145030F1EB0B0D30092DFC1 /* N.json */; };
+		E145034B1EB0B0D40092DFC1 /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503101EB0B0D30092DFC1 /* O.json */; };
+		E145034C1EB0B0D40092DFC1 /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503111EB0B0D30092DFC1 /* P.json */; };
+		E145034D1EB0B0D40092DFC1 /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503121EB0B0D30092DFC1 /* Q.json */; };
+		E145034E1EB0B0D40092DFC1 /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503131EB0B0D30092DFC1 /* R.json */; };
+		E145034F1EB0B0D40092DFC1 /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503141EB0B0D30092DFC1 /* S.json */; };
+		E14503501EB0B0D40092DFC1 /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503151EB0B0D30092DFC1 /* T.json */; };
+		E14503511EB0B0D40092DFC1 /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503161EB0B0D30092DFC1 /* U.json */; };
+		E14503521EB0B0D40092DFC1 /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503171EB0B0D30092DFC1 /* V.json */; };
+		E14503531EB0B0D40092DFC1 /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503181EB0B0D30092DFC1 /* W.json */; };
+		E14503541EB0B0D40092DFC1 /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503191EB0B0D30092DFC1 /* X.json */; };
+		E14503551EB0B0D40092DFC1 /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = E145031A1EB0B0D30092DFC1 /* Y.json */; };
+		E14503561EB0B0D40092DFC1 /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = E145031B1EB0B0D30092DFC1 /* Z.json */; };
+		E14503571EB0B0D40092DFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */; };
+		E14503581EB0B0D40092DFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E145031E1EB0B0D30092DFC1 /* Main.storyboard */; };
+		E14503591EB0B0D40092DFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503231EB0B0D30092DFC1 /* AppDelegate.swift */; };
+		E145035A1EB0B0D40092DFC1 /* ComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503261EB0B0D30092DFC1 /* ComparisonViewController.swift */; };
+		E145035B1EB0B0D40092DFC1 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503291EB0B0D30092DFC1 /* LikeButton.swift */; };
+		E145035C1EB0B0D40092DFC1 /* OptimisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145032A1EB0B0D30092DFC1 /* OptimisticLikeButton.swift */; };
+		E145035D1EB0B0D40092DFC1 /* OptimisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E145032B1EB0B0D30092DFC1 /* OptimisticLikeButton.xib */; };
+		E145035E1EB0B0D40092DFC1 /* RealisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145032C1EB0B0D30092DFC1 /* RealisticLikeButton.swift */; };
+		E145035F1EB0B0D40092DFC1 /* RealisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E145032D1EB0B0D30092DFC1 /* RealisticLikeButton.xib */; };
+		E14503601EB0B0D40092DFC1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145032F1EB0B0D30092DFC1 /* Message.swift */; };
+		E14503611EB0B0D40092DFC1 /* OptimisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503301EB0B0D30092DFC1 /* OptimisticMessage.swift */; };
+		E14503621EB0B0D40092DFC1 /* OptimisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14503311EB0B0D30092DFC1 /* OptimisticMessage.xib */; };
+		E14503631EB0B0D40092DFC1 /* RealisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503321EB0B0D30092DFC1 /* RealisticMessage.swift */; };
+		E14503641EB0B0D40092DFC1 /* RealisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14503331EB0B0D30092DFC1 /* RealisticMessage.xib */; };
+		E14503651EB0B0D40092DFC1 /* ServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503351EB0B0D40092DFC1 /* ServerMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,59 +72,59 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1EF584D6357AB57CE39A61CB /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27F53B10F52D145DF2C75583 /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
-		49FBEC7808135A980B898F85 /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
-		E174F9FF1EAF864C00D9DD94 /* ServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMock.swift; sourceTree = "<group>"; };
+		0739AF7E92D28DA890C43EBC /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
+		3663000D98F02C855FFB6061 /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8009EB2DC8C9AE1079B257E /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
+		E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		E14502FE1EB0B0D30092DFC1 /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		E14502FF1EB0B0D30092DFC1 /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		E14503001EB0B0D30092DFC1 /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		E14503011EB0B0D30092DFC1 /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		E14503021EB0B0D30092DFC1 /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		E14503031EB0B0D30092DFC1 /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		E14503041EB0B0D30092DFC1 /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		E14503051EB0B0D30092DFC1 /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		E14503061EB0B0D30092DFC1 /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		E14503071EB0B0D30092DFC1 /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		E14503081EB0B0D30092DFC1 /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		E14503091EB0B0D30092DFC1 /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		E145030A1EB0B0D30092DFC1 /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		E145030B1EB0B0D30092DFC1 /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		E145030C1EB0B0D30092DFC1 /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		E145030D1EB0B0D30092DFC1 /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		E145030E1EB0B0D30092DFC1 /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		E145030F1EB0B0D30092DFC1 /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		E14503101EB0B0D30092DFC1 /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		E14503111EB0B0D30092DFC1 /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		E14503121EB0B0D30092DFC1 /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		E14503131EB0B0D30092DFC1 /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		E14503141EB0B0D30092DFC1 /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		E14503151EB0B0D30092DFC1 /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		E14503161EB0B0D30092DFC1 /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		E14503171EB0B0D30092DFC1 /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		E14503181EB0B0D30092DFC1 /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		E14503191EB0B0D30092DFC1 /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		E145031A1EB0B0D30092DFC1 /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		E145031B1EB0B0D30092DFC1 /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		E145031D1EB0B0D30092DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E145031F1EB0B0D30092DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E14503231EB0B0D30092DFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E14503261EB0B0D30092DFC1 /* ComparisonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonViewController.swift; sourceTree = "<group>"; };
+		E14503291EB0B0D30092DFC1 /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		E145032A1EB0B0D30092DFC1 /* OptimisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticLikeButton.swift; sourceTree = "<group>"; };
+		E145032B1EB0B0D30092DFC1 /* OptimisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticLikeButton.xib; sourceTree = "<group>"; };
+		E145032C1EB0B0D30092DFC1 /* RealisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticLikeButton.swift; sourceTree = "<group>"; };
+		E145032D1EB0B0D30092DFC1 /* RealisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticLikeButton.xib; sourceTree = "<group>"; };
+		E145032F1EB0B0D30092DFC1 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E14503301EB0B0D30092DFC1 /* OptimisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticMessage.swift; sourceTree = "<group>"; };
+		E14503311EB0B0D30092DFC1 /* OptimisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticMessage.xib; sourceTree = "<group>"; };
+		E14503321EB0B0D30092DFC1 /* RealisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticMessage.swift; sourceTree = "<group>"; };
+		E14503331EB0B0D30092DFC1 /* RealisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticMessage.xib; sourceTree = "<group>"; };
+		E14503351EB0B0D40092DFC1 /* ServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMock.swift; sourceTree = "<group>"; };
 		E1FA29C71EADE7B70020E48F /* OptimisticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimisticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1FA29CA1EADE7B70020E48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1FA29CC1EADE7B70020E48F /* ComparisonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonViewController.swift; sourceTree = "<group>"; };
-		E1FA29CF1EADE7B70020E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1FA29D41EADE7B70020E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1FA29D61EADE7B70020E48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1FA29E61EAE11940020E48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1FA29E81EAE11940020E48F /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
-		E1FA29E91EAE11940020E48F /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
-		E1FA29EA1EAE11940020E48F /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
-		E1FA29EB1EAE11940020E48F /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
-		E1FA29EC1EAE11940020E48F /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
-		E1FA29ED1EAE11940020E48F /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
-		E1FA29EE1EAE11940020E48F /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
-		E1FA29EF1EAE11940020E48F /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
-		E1FA29F01EAE11940020E48F /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
-		E1FA29F11EAE11940020E48F /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
-		E1FA29F21EAE11940020E48F /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
-		E1FA29F31EAE11940020E48F /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
-		E1FA29F41EAE11940020E48F /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
-		E1FA29F51EAE11940020E48F /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
-		E1FA29F61EAE11940020E48F /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
-		E1FA29F71EAE11940020E48F /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
-		E1FA29F81EAE11940020E48F /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
-		E1FA29F91EAE11940020E48F /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
-		E1FA29FA1EAE11940020E48F /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
-		E1FA29FB1EAE11940020E48F /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
-		E1FA29FC1EAE11940020E48F /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
-		E1FA29FD1EAE11940020E48F /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
-		E1FA29FE1EAE11940020E48F /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
-		E1FA29FF1EAE11940020E48F /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
-		E1FA2A001EAE11940020E48F /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
-		E1FA2A011EAE11940020E48F /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
-		E1FA2A021EAE11940020E48F /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
-		E1FA2A031EAE11940020E48F /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
-		E1FA2A041EAE11940020E48F /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
-		E1FA2A051EAE11940020E48F /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
-		E1FA2A251EAE24D20020E48F /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
-		E1FA2A2B1EAE26CE0020E48F /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
-		E1FA2A371EAE40A20020E48F /* OptimisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticLikeButton.swift; sourceTree = "<group>"; };
-		E1FA2A381EAE40A20020E48F /* RealisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticLikeButton.swift; sourceTree = "<group>"; };
-		E1FA2A3B1EAE40AC0020E48F /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
-		E1FA2A3D1EAE40FA0020E48F /* RealisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticLikeButton.xib; sourceTree = "<group>"; };
-		E1FA2A3F1EAE416D0020E48F /* OptimisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticLikeButton.xib; sourceTree = "<group>"; };
-		E1FA2A421EAE50AB0020E48F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		E1FA2A441EAE50B50020E48F /* OptimisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticMessage.swift; sourceTree = "<group>"; };
-		E1FA2A461EAE50C00020E48F /* RealisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticMessage.swift; sourceTree = "<group>"; };
-		E1FA2A481EAE51510020E48F /* RealisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticMessage.xib; sourceTree = "<group>"; };
-		E1FA2A4A1EAE515D0020E48F /* OptimisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticMessage.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,28 +132,153 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E3DB4C35116D983DA442F8 /* Pods_OptimisticUI.framework in Frameworks */,
+				649CA26E1688F2376C1AFC66 /* Pods_OptimisticUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C38B917BD1BD32D6F5654C4 /* Pods */ = {
+		E14502F81EB0B0D30092DFC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				49FBEC7808135A980B898F85 /* Pods-OptimisticUI.debug.xcconfig */,
-				27F53B10F52D145DF2C75583 /* Pods-OptimisticUI.release.xcconfig */,
+				E14502F91EB0B0D30092DFC1 /* Assets */,
+				E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */,
+				E145031E1EB0B0D30092DFC1 /* Main.storyboard */,
+				E14503201EB0B0D30092DFC1 /* Plists */,
 			);
-			name = Pods;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		DC2562080F68002DD51451F4 /* Frameworks */ = {
+		E14502F91EB0B0D30092DFC1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1EF584D6357AB57CE39A61CB /* Pods_OptimisticUI.framework */,
+				E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */,
+				E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */,
+				E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */,
+				E14502FD1EB0B0D30092DFC1 /* TypeFace */,
 			);
-			name = Frameworks;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E14502FD1EB0B0D30092DFC1 /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				E14502FE1EB0B0D30092DFC1 /* A.json */,
+				E14502FF1EB0B0D30092DFC1 /* Apostrophe.json */,
+				E14503001EB0B0D30092DFC1 /* B.json */,
+				E14503011EB0B0D30092DFC1 /* BlinkingCursor.json */,
+				E14503021EB0B0D30092DFC1 /* C.json */,
+				E14503031EB0B0D30092DFC1 /* Colon.json */,
+				E14503041EB0B0D30092DFC1 /* Comma.json */,
+				E14503051EB0B0D30092DFC1 /* D.json */,
+				E14503061EB0B0D30092DFC1 /* E.json */,
+				E14503071EB0B0D30092DFC1 /* F.json */,
+				E14503081EB0B0D30092DFC1 /* G.json */,
+				E14503091EB0B0D30092DFC1 /* H.json */,
+				E145030A1EB0B0D30092DFC1 /* I.json */,
+				E145030B1EB0B0D30092DFC1 /* J.json */,
+				E145030C1EB0B0D30092DFC1 /* K.json */,
+				E145030D1EB0B0D30092DFC1 /* L.json */,
+				E145030E1EB0B0D30092DFC1 /* M.json */,
+				E145030F1EB0B0D30092DFC1 /* N.json */,
+				E14503101EB0B0D30092DFC1 /* O.json */,
+				E14503111EB0B0D30092DFC1 /* P.json */,
+				E14503121EB0B0D30092DFC1 /* Q.json */,
+				E14503131EB0B0D30092DFC1 /* R.json */,
+				E14503141EB0B0D30092DFC1 /* S.json */,
+				E14503151EB0B0D30092DFC1 /* T.json */,
+				E14503161EB0B0D30092DFC1 /* U.json */,
+				E14503171EB0B0D30092DFC1 /* V.json */,
+				E14503181EB0B0D30092DFC1 /* W.json */,
+				E14503191EB0B0D30092DFC1 /* X.json */,
+				E145031A1EB0B0D30092DFC1 /* Y.json */,
+				E145031B1EB0B0D30092DFC1 /* Z.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		E14503201EB0B0D30092DFC1 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		E14503211EB0B0D30092DFC1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E14503221EB0B0D30092DFC1 /* AppDelegate */,
+				E14503241EB0B0D30092DFC1 /* Models */,
+				E14503251EB0B0D30092DFC1 /* Modules */,
+				E14503341EB0B0D30092DFC1 /* Services */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E14503221EB0B0D30092DFC1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E14503231EB0B0D30092DFC1 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E14503241EB0B0D30092DFC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E14503251EB0B0D30092DFC1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E14503261EB0B0D30092DFC1 /* ComparisonViewController.swift */,
+				E14503271EB0B0D30092DFC1 /* Views */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E14503271EB0B0D30092DFC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E14503281EB0B0D30092DFC1 /* Like */,
+				E145032E1EB0B0D30092DFC1 /* Message */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E14503281EB0B0D30092DFC1 /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				E14503291EB0B0D30092DFC1 /* LikeButton.swift */,
+				E145032A1EB0B0D30092DFC1 /* OptimisticLikeButton.swift */,
+				E145032B1EB0B0D30092DFC1 /* OptimisticLikeButton.xib */,
+				E145032C1EB0B0D30092DFC1 /* RealisticLikeButton.swift */,
+				E145032D1EB0B0D30092DFC1 /* RealisticLikeButton.xib */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		E145032E1EB0B0D30092DFC1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E145032F1EB0B0D30092DFC1 /* Message.swift */,
+				E14503301EB0B0D30092DFC1 /* OptimisticMessage.swift */,
+				E14503311EB0B0D30092DFC1 /* OptimisticMessage.xib */,
+				E14503321EB0B0D30092DFC1 /* RealisticMessage.swift */,
+				E14503331EB0B0D30092DFC1 /* RealisticMessage.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E14503341EB0B0D30092DFC1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E14503351EB0B0D40092DFC1 /* ServerMock.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		E1FA29BE1EADE7B70020E48F = {
@@ -162,8 +287,8 @@
 				E1FA29C91EADE7B70020E48F /* OptimisticUI */,
 				E1FA29C81EADE7B70020E48F /* Products */,
 				E1FA29DC1EADE82B0020E48F /* Libs */,
-				4C38B917BD1BD32D6F5654C4 /* Pods */,
-				DC2562080F68002DD51451F4 /* Frameworks */,
+				FBD46467611070CC1281BD95 /* Pods */,
+				E71BEB73F2318932CDFBBFC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,14 +303,9 @@
 		E1FA29C91EADE7B70020E48F /* OptimisticUI */ = {
 			isa = PBXGroup;
 			children = (
-				E1FA29CA1EADE7B70020E48F /* AppDelegate.swift */,
-				E1FA29CC1EADE7B70020E48F /* ComparisonViewController.swift */,
-				E174F9FF1EAF864C00D9DD94 /* ServerMock.swift */,
-				E1FA2A311EAE40770020E48F /* Views */,
-				E1FA29CE1EADE7B70020E48F /* Main.storyboard */,
-				E1FA29D31EADE7B70020E48F /* LaunchScreen.storyboard */,
+				E14502F81EB0B0D30092DFC1 /* Resources */,
+				E14503211EB0B0D30092DFC1 /* Source */,
 				E1FA29D61EADE7B70020E48F /* Info.plist */,
-				E1FA29E51EAE11940020E48F /* Assets */,
 			);
 			path = OptimisticUI;
 			sourceTree = "<group>";
@@ -197,85 +317,21 @@
 			path = Libs;
 			sourceTree = "<group>";
 		};
-		E1FA29E51EAE11940020E48F /* Assets */ = {
+		E71BEB73F2318932CDFBBFC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1FA29E61EAE11940020E48F /* Assets.xcassets */,
-				E1FA29E71EAE11940020E48F /* TypeFace */,
-				E1FA2A251EAE24D20020E48F /* LottieLogo1.json */,
-				E1FA2A2B1EAE26CE0020E48F /* TwitterHeart.json */,
+				3663000D98F02C855FFB6061 /* Pods_OptimisticUI.framework */,
 			);
-			path = Assets;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1FA29E71EAE11940020E48F /* TypeFace */ = {
+		FBD46467611070CC1281BD95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1FA29E81EAE11940020E48F /* A.json */,
-				E1FA29E91EAE11940020E48F /* Apostrophe.json */,
-				E1FA29EA1EAE11940020E48F /* B.json */,
-				E1FA29EB1EAE11940020E48F /* BlinkingCursor.json */,
-				E1FA29EC1EAE11940020E48F /* C.json */,
-				E1FA29ED1EAE11940020E48F /* Colon.json */,
-				E1FA29EE1EAE11940020E48F /* Comma.json */,
-				E1FA29EF1EAE11940020E48F /* D.json */,
-				E1FA29F01EAE11940020E48F /* E.json */,
-				E1FA29F11EAE11940020E48F /* F.json */,
-				E1FA29F21EAE11940020E48F /* G.json */,
-				E1FA29F31EAE11940020E48F /* H.json */,
-				E1FA29F41EAE11940020E48F /* I.json */,
-				E1FA29F51EAE11940020E48F /* J.json */,
-				E1FA29F61EAE11940020E48F /* K.json */,
-				E1FA29F71EAE11940020E48F /* L.json */,
-				E1FA29F81EAE11940020E48F /* M.json */,
-				E1FA29F91EAE11940020E48F /* N.json */,
-				E1FA29FA1EAE11940020E48F /* O.json */,
-				E1FA29FB1EAE11940020E48F /* P.json */,
-				E1FA29FC1EAE11940020E48F /* Q.json */,
-				E1FA29FD1EAE11940020E48F /* R.json */,
-				E1FA29FE1EAE11940020E48F /* S.json */,
-				E1FA29FF1EAE11940020E48F /* T.json */,
-				E1FA2A001EAE11940020E48F /* U.json */,
-				E1FA2A011EAE11940020E48F /* V.json */,
-				E1FA2A021EAE11940020E48F /* W.json */,
-				E1FA2A031EAE11940020E48F /* X.json */,
-				E1FA2A041EAE11940020E48F /* Y.json */,
-				E1FA2A051EAE11940020E48F /* Z.json */,
+				0739AF7E92D28DA890C43EBC /* Pods-OptimisticUI.debug.xcconfig */,
+				B8009EB2DC8C9AE1079B257E /* Pods-OptimisticUI.release.xcconfig */,
 			);
-			path = TypeFace;
-			sourceTree = "<group>";
-		};
-		E1FA2A311EAE40770020E48F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E1FA2A361EAE40A20020E48F /* Like */,
-				E1FA2A411EAE509E0020E48F /* Message */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E1FA2A361EAE40A20020E48F /* Like */ = {
-			isa = PBXGroup;
-			children = (
-				E1FA2A3B1EAE40AC0020E48F /* LikeButton.swift */,
-				E1FA2A371EAE40A20020E48F /* OptimisticLikeButton.swift */,
-				E1FA2A381EAE40A20020E48F /* RealisticLikeButton.swift */,
-				E1FA2A3D1EAE40FA0020E48F /* RealisticLikeButton.xib */,
-				E1FA2A3F1EAE416D0020E48F /* OptimisticLikeButton.xib */,
-			);
-			path = Like;
-			sourceTree = "<group>";
-		};
-		E1FA2A411EAE509E0020E48F /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				E1FA2A421EAE50AB0020E48F /* Message.swift */,
-				E1FA2A441EAE50B50020E48F /* OptimisticMessage.swift */,
-				E1FA2A461EAE50C00020E48F /* RealisticMessage.swift */,
-				E1FA2A4A1EAE515D0020E48F /* OptimisticMessage.xib */,
-				E1FA2A481EAE51510020E48F /* RealisticMessage.xib */,
-			);
-			path = Message;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,14 +341,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1FA29D91EADE7B70020E48F /* Build configuration list for PBXNativeTarget "OptimisticUI" */;
 			buildPhases = (
-				810CD904D9D09F4DE92B5F90 /* [CP] Check Pods Manifest.lock */,
+				474C8C092165A221185FFCB3 /* [CP] Check Pods Manifest.lock */,
 				E1FA29C31EADE7B70020E48F /* Sources */,
 				E1FA29C41EADE7B70020E48F /* Frameworks */,
 				E1FA29C51EADE7B70020E48F /* Resources */,
-				2EA3A2D8E18E0AD294F14076 /* [CP] Embed Pods Frameworks */,
-				A79C06A44CAE057E7FD67090 /* [CP] Copy Pods Resources */,
 				E1FA2A2A1EAE25390020E48F /* Embed Frameworks */,
 				E14502F71EB0AC830092DFC1 /* SwiftLint */,
+				FD4A0D4075A90EBA25400BA1 /* [CP] Embed Pods Frameworks */,
+				1331A299A59015DB96CD38A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,82 +399,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FA2A1C1EAE11940020E48F /* R.json in Resources */,
-				E1FA2A201EAE11940020E48F /* V.json in Resources */,
-				E1FA2A121EAE11940020E48F /* H.json in Resources */,
-				E1FA2A401EAE416D0020E48F /* OptimisticLikeButton.xib in Resources */,
-				E1FA2A101EAE11940020E48F /* F.json in Resources */,
-				E1FA2A091EAE11940020E48F /* B.json in Resources */,
-				E1FA2A1A1EAE11940020E48F /* P.json in Resources */,
-				E1FA2A151EAE11940020E48F /* K.json in Resources */,
-				E1FA2A491EAE51510020E48F /* RealisticMessage.xib in Resources */,
-				E1FA2A231EAE11940020E48F /* Y.json in Resources */,
-				E1FA2A0B1EAE11940020E48F /* C.json in Resources */,
-				E1FA29D51EADE7B70020E48F /* LaunchScreen.storyboard in Resources */,
-				E1FA2A141EAE11940020E48F /* J.json in Resources */,
-				E1FA2A191EAE11940020E48F /* O.json in Resources */,
-				E1FA2A221EAE11940020E48F /* X.json in Resources */,
-				E1FA2A0F1EAE11940020E48F /* E.json in Resources */,
-				E1FA2A1F1EAE11940020E48F /* U.json in Resources */,
-				E1FA2A0D1EAE11940020E48F /* Comma.json in Resources */,
-				E1FA2A131EAE11940020E48F /* I.json in Resources */,
-				E1FA2A211EAE11940020E48F /* W.json in Resources */,
-				E1FA2A241EAE11940020E48F /* Z.json in Resources */,
-				E1FA2A261EAE24D20020E48F /* LottieLogo1.json in Resources */,
-				E1FA2A1D1EAE11940020E48F /* S.json in Resources */,
-				E1FA2A3E1EAE40FA0020E48F /* RealisticLikeButton.xib in Resources */,
-				E1FA2A0A1EAE11940020E48F /* BlinkingCursor.json in Resources */,
-				E1FA2A161EAE11940020E48F /* L.json in Resources */,
-				E1FA2A061EAE11940020E48F /* Assets.xcassets in Resources */,
-				E1FA2A1B1EAE11940020E48F /* Q.json in Resources */,
-				E1FA2A081EAE11940020E48F /* Apostrophe.json in Resources */,
-				E1FA2A0E1EAE11940020E48F /* D.json in Resources */,
-				E1FA2A4B1EAE515D0020E48F /* OptimisticMessage.xib in Resources */,
-				E1FA2A2C1EAE26CE0020E48F /* TwitterHeart.json in Resources */,
-				E1FA2A171EAE11940020E48F /* M.json in Resources */,
-				E1FA2A1E1EAE11940020E48F /* T.json in Resources */,
-				E1FA29D01EADE7B70020E48F /* Main.storyboard in Resources */,
-				E1FA2A111EAE11940020E48F /* G.json in Resources */,
-				E1FA2A181EAE11940020E48F /* N.json in Resources */,
-				E1FA2A071EAE11940020E48F /* A.json in Resources */,
-				E1FA2A0C1EAE11940020E48F /* Colon.json in Resources */,
+				E14503551EB0B0D40092DFC1 /* Y.json in Resources */,
+				E14503421EB0B0D40092DFC1 /* F.json in Resources */,
+				E145033B1EB0B0D40092DFC1 /* B.json in Resources */,
+				E14503451EB0B0D40092DFC1 /* I.json in Resources */,
+				E14503391EB0B0D40092DFC1 /* A.json in Resources */,
+				E14503541EB0B0D40092DFC1 /* X.json in Resources */,
+				E145034F1EB0B0D40092DFC1 /* S.json in Resources */,
+				E14503441EB0B0D40092DFC1 /* H.json in Resources */,
+				E14503461EB0B0D40092DFC1 /* J.json in Resources */,
+				E145035F1EB0B0D40092DFC1 /* RealisticLikeButton.xib in Resources */,
+				E14503361EB0B0D40092DFC1 /* Assets.xcassets in Resources */,
+				E14503371EB0B0D40092DFC1 /* LottieLogo1.json in Resources */,
+				E14503561EB0B0D40092DFC1 /* Z.json in Resources */,
+				E14503521EB0B0D40092DFC1 /* V.json in Resources */,
+				E145033E1EB0B0D40092DFC1 /* Colon.json in Resources */,
+				E14503431EB0B0D40092DFC1 /* G.json in Resources */,
+				E14503581EB0B0D40092DFC1 /* Main.storyboard in Resources */,
+				E14503411EB0B0D40092DFC1 /* E.json in Resources */,
+				E145034A1EB0B0D40092DFC1 /* N.json in Resources */,
+				E14503401EB0B0D40092DFC1 /* D.json in Resources */,
+				E14503481EB0B0D40092DFC1 /* L.json in Resources */,
+				E14503501EB0B0D40092DFC1 /* T.json in Resources */,
+				E145034C1EB0B0D40092DFC1 /* P.json in Resources */,
+				E14503571EB0B0D40092DFC1 /* LaunchScreen.storyboard in Resources */,
+				E14503641EB0B0D40092DFC1 /* RealisticMessage.xib in Resources */,
+				E145035D1EB0B0D40092DFC1 /* OptimisticLikeButton.xib in Resources */,
+				E145033D1EB0B0D40092DFC1 /* C.json in Resources */,
+				E145034D1EB0B0D40092DFC1 /* Q.json in Resources */,
+				E14503621EB0B0D40092DFC1 /* OptimisticMessage.xib in Resources */,
+				E14503381EB0B0D40092DFC1 /* TwitterHeart.json in Resources */,
+				E145034B1EB0B0D40092DFC1 /* O.json in Resources */,
+				E14503511EB0B0D40092DFC1 /* U.json in Resources */,
+				E145033C1EB0B0D40092DFC1 /* BlinkingCursor.json in Resources */,
+				E14503531EB0B0D40092DFC1 /* W.json in Resources */,
+				E145034E1EB0B0D40092DFC1 /* R.json in Resources */,
+				E14503471EB0B0D40092DFC1 /* K.json in Resources */,
+				E145033F1EB0B0D40092DFC1 /* Comma.json in Resources */,
+				E14503491EB0B0D40092DFC1 /* M.json in Resources */,
+				E145033A1EB0B0D40092DFC1 /* Apostrophe.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2EA3A2D8E18E0AD294F14076 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		810CD904D9D09F4DE92B5F90 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A79C06A44CAE057E7FD67090 /* [CP] Copy Pods Resources */ = {
+		1331A299A59015DB96CD38A7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,6 +457,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474C8C092165A221185FFCB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E14502F71EB0AC830092DFC1 /* SwiftLint */ = {
@@ -447,6 +488,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
+		FD4A0D4075A90EBA25400BA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -454,35 +510,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FA29CD1EADE7B70020E48F /* ComparisonViewController.swift in Sources */,
-				E1FA2A3A1EAE40A20020E48F /* RealisticLikeButton.swift in Sources */,
-				E1FA2A391EAE40A20020E48F /* OptimisticLikeButton.swift in Sources */,
-				E1FA2A431EAE50AB0020E48F /* Message.swift in Sources */,
-				E1FA2A3C1EAE40AC0020E48F /* LikeButton.swift in Sources */,
-				E1FA29CB1EADE7B70020E48F /* AppDelegate.swift in Sources */,
-				E174FA001EAF864C00D9DD94 /* ServerMock.swift in Sources */,
-				E1FA2A471EAE50C00020E48F /* RealisticMessage.swift in Sources */,
-				E1FA2A451EAE50B50020E48F /* OptimisticMessage.swift in Sources */,
+				E14503591EB0B0D40092DFC1 /* AppDelegate.swift in Sources */,
+				E145035B1EB0B0D40092DFC1 /* LikeButton.swift in Sources */,
+				E145035A1EB0B0D40092DFC1 /* ComparisonViewController.swift in Sources */,
+				E14503601EB0B0D40092DFC1 /* Message.swift in Sources */,
+				E145035C1EB0B0D40092DFC1 /* OptimisticLikeButton.swift in Sources */,
+				E145035E1EB0B0D40092DFC1 /* RealisticLikeButton.swift in Sources */,
+				E14503651EB0B0D40092DFC1 /* ServerMock.swift in Sources */,
+				E14503631EB0B0D40092DFC1 /* RealisticMessage.swift in Sources */,
+				E14503611EB0B0D40092DFC1 /* OptimisticMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E1FA29CE1EADE7B70020E48F /* Main.storyboard */ = {
+		E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E1FA29CF1EADE7B70020E48F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E1FA29D31EADE7B70020E48F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1FA29D41EADE7B70020E48F /* Base */,
+				E145031D1EB0B0D30092DFC1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E145031E1EB0B0D30092DFC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E145031F1EB0B0D30092DFC1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -585,7 +641,7 @@
 		};
 		E1FA29DA1EADE7B70020E48F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49FBEC7808135A980B898F85 /* Pods-OptimisticUI.debug.xcconfig */;
+			baseConfigurationReference = 0739AF7E92D28DA890C43EBC /* Pods-OptimisticUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
@@ -593,7 +649,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libs",
 				);
-				INFOPLIST_FILE = OptimisticUI/Info.plist;
+				INFOPLIST_FILE = OptimisticUI/Resources/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUI;
@@ -604,7 +660,7 @@
 		};
 		E1FA29DB1EADE7B70020E48F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F53B10F52D145DF2C75583 /* Pods-OptimisticUI.release.xcconfig */;
+			baseConfigurationReference = B8009EB2DC8C9AE1079B257E /* Pods-OptimisticUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
@@ -612,7 +668,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libs",
 				);
-				INFOPLIST_FILE = OptimisticUI/Info.plist;
+				INFOPLIST_FILE = OptimisticUI/Resources/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUI;

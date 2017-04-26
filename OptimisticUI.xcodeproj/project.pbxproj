@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FFE92705249EAE563D0A8F0 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A216A7A818486BA1C237962 /* Pods_OptimisticUI.framework */; };
+		3E0733779D7C23A54E214C9E /* OPIComparisonConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A3F808DD6795A1B5438311 /* OPIComparisonConfiguratorTests.swift */; };
+		510344FCEFF86EA7E0DBCE20 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8558DF5818062B31958055D7 /* Pods_OptimisticUI.framework */; };
+		5843CEFFC3421A5904EA9009 /* OPIComparisionPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C124067821B6737329DE530 /* OPIComparisionPresenterTests.swift */; };
+		58CC2AE9115DD0AFD8D72F78 /* OPIComparisionInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A589F21D613AA59EFC900 /* OPIComparisionInteractorTests.swift */; };
+		74C0303C0480CD6F69522235 /* OPIComparisonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A2F9C0E91367BD7768169 /* OPIComparisonViewTests.swift */; };
+		88D94B98141DC3647CB883B7 /* OPIComparisionRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B625693EBF257471387E68 /* OPIComparisionRouterTests.swift */; };
 		E14503361EB0B0D40092DFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */; };
 		E14503371EB0B0D40092DFC1 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */; };
 		E14503381EB0B0D40092DFC1 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */; };
@@ -41,10 +46,7 @@
 		E14503541EB0B0D40092DFC1 /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = E14503191EB0B0D30092DFC1 /* X.json */; };
 		E14503551EB0B0D40092DFC1 /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = E145031A1EB0B0D30092DFC1 /* Y.json */; };
 		E14503561EB0B0D40092DFC1 /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = E145031B1EB0B0D30092DFC1 /* Z.json */; };
-		E14503571EB0B0D40092DFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */; };
-		E14503581EB0B0D40092DFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E145031E1EB0B0D30092DFC1 /* Main.storyboard */; };
 		E14503591EB0B0D40092DFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503231EB0B0D30092DFC1 /* AppDelegate.swift */; };
-		E145035A1EB0B0D40092DFC1 /* ComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503261EB0B0D30092DFC1 /* ComparisonViewController.swift */; };
 		E145035B1EB0B0D40092DFC1 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503291EB0B0D30092DFC1 /* LikeButton.swift */; };
 		E145035C1EB0B0D40092DFC1 /* OptimisticLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145032A1EB0B0D30092DFC1 /* OptimisticLikeButton.swift */; };
 		E145035D1EB0B0D40092DFC1 /* OptimisticLikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E145032B1EB0B0D30092DFC1 /* OptimisticLikeButton.xib */; };
@@ -57,6 +59,21 @@
 		E14503641EB0B0D40092DFC1 /* RealisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14503331EB0B0D30092DFC1 /* RealisticMessage.xib */; };
 		E14503651EB0B0D40092DFC1 /* ServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503351EB0B0D40092DFC1 /* ServerMock.swift */; };
 		E145036D1EB0B1E90092DFC1 /* OptimisticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145036C1EB0B1E90092DFC1 /* OptimisticUITests.swift */; };
+		E14503861EB0C58D0092DFC1 /* OPIComparisonConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503761EB0C58D0092DFC1 /* OPIComparisonConfigurator.swift */; };
+		E14503871EB0C58D0092DFC1 /* OPIComparisonInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503771EB0C58D0092DFC1 /* OPIComparisonInitializer.swift */; };
+		E14503881EB0C58D0092DFC1 /* OPIComparisonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503791EB0C58D0092DFC1 /* OPIComparisonInteractor.swift */; };
+		E14503891EB0C58D0092DFC1 /* OPIComparisonInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145037A1EB0C58D0092DFC1 /* OPIComparisonInteractorInput.swift */; };
+		E145038A1EB0C58D0092DFC1 /* OPIComparisonInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145037B1EB0C58D0092DFC1 /* OPIComparisonInteractorOutput.swift */; };
+		E145038B1EB0C58D0092DFC1 /* OPIComparisonModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145037D1EB0C58D0092DFC1 /* OPIComparisonModuleInput.swift */; };
+		E145038C1EB0C58D0092DFC1 /* OPIComparisonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145037E1EB0C58D0092DFC1 /* OPIComparisonPresenter.swift */; };
+		E145038D1EB0C58D0092DFC1 /* OPIComparisonRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503801EB0C58D0092DFC1 /* OPIComparisonRouter.swift */; };
+		E145038E1EB0C58D0092DFC1 /* OPIComparisonRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503811EB0C58D0092DFC1 /* OPIComparisonRouterInput.swift */; };
+		E145038F1EB0C58D0092DFC1 /* OPIComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503831EB0C58D0092DFC1 /* OPIComparisonViewController.swift */; };
+		E14503901EB0C58D0092DFC1 /* OPIComparisonViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503841EB0C58D0092DFC1 /* OPIComparisonViewInput.swift */; };
+		E14503911EB0C58D0092DFC1 /* OPIComparisonViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503851EB0C58D0092DFC1 /* OPIComparisonViewOutput.swift */; };
+		E14503931EB0CB3C0092DFC1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E14503921EB0CB3C0092DFC1 /* Info.plist */; };
+		E14503991EB0CC200092DFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14503951EB0CC200092DFC1 /* LaunchScreen.storyboard */; };
+		E145039A1EB0CC200092DFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14503971EB0CC200092DFC1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,9 +100,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		68C4FA5C7C744D4411230E13 /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
-		6A216A7A818486BA1C237962 /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64442E032DCBA3BC6CC0DBB /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
+		000728740773A128F5CABA2B /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
+		3C124067821B6737329DE530 /* OPIComparisionPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OPIComparisionPresenterTests.swift; sourceTree = "<group>"; };
+		407A2F9C0E91367BD7768169 /* OPIComparisonViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OPIComparisonViewTests.swift; sourceTree = "<group>"; };
+		558A589F21D613AA59EFC900 /* OPIComparisionInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OPIComparisionInteractorTests.swift; sourceTree = "<group>"; };
+		79B625693EBF257471387E68 /* OPIComparisionRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OPIComparisionRouterTests.swift; sourceTree = "<group>"; };
+		8558DF5818062B31958055D7 /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A3F808DD6795A1B5438311 /* OPIComparisonConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OPIComparisonConfiguratorTests.swift; sourceTree = "<group>"; };
+		D2478F66729DFBA03C308B58 /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
 		E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
 		E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
@@ -119,10 +141,7 @@
 		E14503191EB0B0D30092DFC1 /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
 		E145031A1EB0B0D30092DFC1 /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
 		E145031B1EB0B0D30092DFC1 /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
-		E145031D1EB0B0D30092DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E145031F1EB0B0D30092DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E14503231EB0B0D30092DFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E14503261EB0B0D30092DFC1 /* ComparisonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonViewController.swift; sourceTree = "<group>"; };
 		E14503291EB0B0D30092DFC1 /* LikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
 		E145032A1EB0B0D30092DFC1 /* OptimisticLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimisticLikeButton.swift; sourceTree = "<group>"; };
 		E145032B1EB0B0D30092DFC1 /* OptimisticLikeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptimisticLikeButton.xib; sourceTree = "<group>"; };
@@ -137,6 +156,21 @@
 		E145036A1EB0B1E80092DFC1 /* OptimisticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimisticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E145036C1EB0B1E90092DFC1 /* OptimisticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimisticUITests.swift; sourceTree = "<group>"; };
 		E145036E1EB0B1E90092DFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14503761EB0C58D0092DFC1 /* OPIComparisonConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonConfigurator.swift; sourceTree = "<group>"; };
+		E14503771EB0C58D0092DFC1 /* OPIComparisonInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonInitializer.swift; sourceTree = "<group>"; };
+		E14503791EB0C58D0092DFC1 /* OPIComparisonInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonInteractor.swift; sourceTree = "<group>"; };
+		E145037A1EB0C58D0092DFC1 /* OPIComparisonInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonInteractorInput.swift; sourceTree = "<group>"; };
+		E145037B1EB0C58D0092DFC1 /* OPIComparisonInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonInteractorOutput.swift; sourceTree = "<group>"; };
+		E145037D1EB0C58D0092DFC1 /* OPIComparisonModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonModuleInput.swift; sourceTree = "<group>"; };
+		E145037E1EB0C58D0092DFC1 /* OPIComparisonPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonPresenter.swift; sourceTree = "<group>"; };
+		E14503801EB0C58D0092DFC1 /* OPIComparisonRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonRouter.swift; sourceTree = "<group>"; };
+		E14503811EB0C58D0092DFC1 /* OPIComparisonRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonRouterInput.swift; sourceTree = "<group>"; };
+		E14503831EB0C58D0092DFC1 /* OPIComparisonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonViewController.swift; sourceTree = "<group>"; };
+		E14503841EB0C58D0092DFC1 /* OPIComparisonViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonViewInput.swift; sourceTree = "<group>"; };
+		E14503851EB0C58D0092DFC1 /* OPIComparisonViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPIComparisonViewOutput.swift; sourceTree = "<group>"; };
+		E14503921EB0CB3C0092DFC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14503961EB0CC200092DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E14503981EB0CC200092DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1FA29C71EADE7B70020E48F /* OptimisticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimisticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,36 +186,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFE92705249EAE563D0A8F0 /* Pods_OptimisticUI.framework in Frameworks */,
+				510344FCEFF86EA7E0DBCE20 /* Pods_OptimisticUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5FC9495AE8FAB1BB4F5DA0C2 /* Pods */ = {
+		08876FAA9EB270056B62FF85 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				68C4FA5C7C744D4411230E13 /* Pods-OptimisticUI.debug.xcconfig */,
-				D64442E032DCBA3BC6CC0DBB /* Pods-OptimisticUI.release.xcconfig */,
+				407A2F9C0E91367BD7768169 /* OPIComparisonViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C3268971C597158943D825A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				558A589F21D613AA59EFC900 /* OPIComparisionInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5E448F625ABDB4C3A90D04F2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				79B625693EBF257471387E68 /* OPIComparisionRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84F7BA84E4F507BBEA2A59DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8558DF5818062B31958055D7 /* Pods_OptimisticUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5025745DD34D9E9F9B66CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2478F66729DFBA03C308B58 /* Pods-OptimisticUI.debug.xcconfig */,
+				000728740773A128F5CABA2B /* Pods-OptimisticUI.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		92D2C250A214145497B050FD /* Frameworks */ = {
+		D5FDF93378DA0644D3A5424B /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				6A216A7A818486BA1C237962 /* Pods_OptimisticUI.framework */,
+				B2A3F808DD6795A1B5438311 /* OPIComparisonConfiguratorTests.swift */,
 			);
-			name = Frameworks;
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D859EED3CFA4AA89C2C16F14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3C124067821B6737329DE530 /* OPIComparisionPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D95CCF7F5DC9445B12409455 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4C5626F1F76446AB4D4FC /* Comparison */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E0E4C5626F1F76446AB4D4FC /* Comparison */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF93378DA0644D3A5424B /* Configurator */,
+				08876FAA9EB270056B62FF85 /* View */,
+				4C3268971C597158943D825A /* Interactor */,
+				D859EED3CFA4AA89C2C16F14 /* Presenter */,
+				5E448F625ABDB4C3A90D04F2 /* Router */,
+			);
+			name = Comparison;
+			path = Comparision;
 			sourceTree = "<group>";
 		};
 		E14502F81EB0B0D30092DFC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E14503941EB0CC200092DFC1 /* Storyboards */,
 				E14502F91EB0B0D30092DFC1 /* Assets */,
-				E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */,
-				E145031E1EB0B0D30092DFC1 /* Main.storyboard */,
 				E14503201EB0B0D30092DFC1 /* Plists */,
 			);
 			path = Resources;
@@ -238,6 +332,7 @@
 		E14503201EB0B0D30092DFC1 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
+				E14503921EB0CB3C0092DFC1 /* Info.plist */,
 			);
 			path = Plists;
 			sourceTree = "<group>";
@@ -245,9 +340,9 @@
 		E14503211EB0B0D30092DFC1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E14503251EB0B0D30092DFC1 /* Modules */,
 				E14503221EB0B0D30092DFC1 /* AppDelegate */,
 				E14503241EB0B0D30092DFC1 /* Models */,
-				E14503251EB0B0D30092DFC1 /* Modules */,
 				E14503341EB0B0D30092DFC1 /* Services */,
 			);
 			path = Source;
@@ -271,7 +366,7 @@
 		E14503251EB0B0D30092DFC1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				E14503261EB0B0D30092DFC1 /* ComparisonViewController.swift */,
+				E14503741EB0C58D0092DFC1 /* Comparison */,
 				E14503271EB0B0D30092DFC1 /* Views */,
 			);
 			path = Modules;
@@ -323,8 +418,77 @@
 			children = (
 				E145036C1EB0B1E90092DFC1 /* OptimisticUITests.swift */,
 				E145036E1EB0B1E90092DFC1 /* Info.plist */,
+				D95CCF7F5DC9445B12409455 /* Tests */,
 			);
 			path = OptimisticUITests;
+			sourceTree = "<group>";
+		};
+		E14503741EB0C58D0092DFC1 /* Comparison */ = {
+			isa = PBXGroup;
+			children = (
+				E14503751EB0C58D0092DFC1 /* Configurator */,
+				E14503781EB0C58D0092DFC1 /* Interactor */,
+				E145037C1EB0C58D0092DFC1 /* Presenter */,
+				E145037F1EB0C58D0092DFC1 /* Router */,
+				E14503821EB0C58D0092DFC1 /* View */,
+			);
+			path = Comparison;
+			sourceTree = "<group>";
+		};
+		E14503751EB0C58D0092DFC1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E14503761EB0C58D0092DFC1 /* OPIComparisonConfigurator.swift */,
+				E14503771EB0C58D0092DFC1 /* OPIComparisonInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E14503781EB0C58D0092DFC1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E14503791EB0C58D0092DFC1 /* OPIComparisonInteractor.swift */,
+				E145037A1EB0C58D0092DFC1 /* OPIComparisonInteractorInput.swift */,
+				E145037B1EB0C58D0092DFC1 /* OPIComparisonInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E145037C1EB0C58D0092DFC1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E145037D1EB0C58D0092DFC1 /* OPIComparisonModuleInput.swift */,
+				E145037E1EB0C58D0092DFC1 /* OPIComparisonPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E145037F1EB0C58D0092DFC1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E14503801EB0C58D0092DFC1 /* OPIComparisonRouter.swift */,
+				E14503811EB0C58D0092DFC1 /* OPIComparisonRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E14503821EB0C58D0092DFC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E14503831EB0C58D0092DFC1 /* OPIComparisonViewController.swift */,
+				E14503841EB0C58D0092DFC1 /* OPIComparisonViewInput.swift */,
+				E14503851EB0C58D0092DFC1 /* OPIComparisonViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E14503941EB0CC200092DFC1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E14503951EB0CC200092DFC1 /* LaunchScreen.storyboard */,
+				E14503971EB0CC200092DFC1 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		E1FA29BE1EADE7B70020E48F = {
@@ -334,8 +498,8 @@
 				E145036B1EB0B1E90092DFC1 /* OptimisticUITests */,
 				E1FA29C81EADE7B70020E48F /* Products */,
 				E1FA29DC1EADE82B0020E48F /* Libs */,
-				5FC9495AE8FAB1BB4F5DA0C2 /* Pods */,
-				92D2C250A214145497B050FD /* Frameworks */,
+				8D5025745DD34D9E9F9B66CD /* Pods */,
+				84F7BA84E4F507BBEA2A59DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -351,8 +515,8 @@
 		E1FA29C91EADE7B70020E48F /* OptimisticUI */ = {
 			isa = PBXGroup;
 			children = (
-				E14502F81EB0B0D30092DFC1 /* Resources */,
 				E14503211EB0B0D30092DFC1 /* Source */,
+				E14502F81EB0B0D30092DFC1 /* Resources */,
 			);
 			path = OptimisticUI;
 			sourceTree = "<group>";
@@ -389,14 +553,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1FA29D91EADE7B70020E48F /* Build configuration list for PBXNativeTarget "OptimisticUI" */;
 			buildPhases = (
-				6BCA4BF2EE351533CA408D89 /* [CP] Check Pods Manifest.lock */,
+				8F71D4130C39D4B762F1BE32 /* [CP] Check Pods Manifest.lock */,
 				E1FA29C31EADE7B70020E48F /* Sources */,
 				E1FA29C41EADE7B70020E48F /* Frameworks */,
 				E1FA29C51EADE7B70020E48F /* Resources */,
 				E1FA2A2A1EAE25390020E48F /* Embed Frameworks */,
 				E14502F71EB0AC830092DFC1 /* SwiftLint */,
-				C3A69B7787C146B90EA00830 /* [CP] Embed Pods Frameworks */,
-				C04087856825521B61850676 /* [CP] Copy Pods Resources */,
+				830056EE58BE56C4990C6CD1 /* [CP] Embed Pods Frameworks */,
+				7C0A2D2736E6C8D95A37DFFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -469,22 +633,22 @@
 				E14503541EB0B0D40092DFC1 /* X.json in Resources */,
 				E145034F1EB0B0D40092DFC1 /* S.json in Resources */,
 				E14503441EB0B0D40092DFC1 /* H.json in Resources */,
+				E14503931EB0CB3C0092DFC1 /* Info.plist in Resources */,
 				E14503461EB0B0D40092DFC1 /* J.json in Resources */,
 				E145035F1EB0B0D40092DFC1 /* RealisticLikeButton.xib in Resources */,
+				E145039A1EB0CC200092DFC1 /* Main.storyboard in Resources */,
 				E14503361EB0B0D40092DFC1 /* Assets.xcassets in Resources */,
 				E14503371EB0B0D40092DFC1 /* LottieLogo1.json in Resources */,
 				E14503561EB0B0D40092DFC1 /* Z.json in Resources */,
 				E14503521EB0B0D40092DFC1 /* V.json in Resources */,
 				E145033E1EB0B0D40092DFC1 /* Colon.json in Resources */,
 				E14503431EB0B0D40092DFC1 /* G.json in Resources */,
-				E14503581EB0B0D40092DFC1 /* Main.storyboard in Resources */,
 				E14503411EB0B0D40092DFC1 /* E.json in Resources */,
 				E145034A1EB0B0D40092DFC1 /* N.json in Resources */,
 				E14503401EB0B0D40092DFC1 /* D.json in Resources */,
 				E14503481EB0B0D40092DFC1 /* L.json in Resources */,
 				E14503501EB0B0D40092DFC1 /* T.json in Resources */,
 				E145034C1EB0B0D40092DFC1 /* P.json in Resources */,
-				E14503571EB0B0D40092DFC1 /* LaunchScreen.storyboard in Resources */,
 				E14503641EB0B0D40092DFC1 /* RealisticMessage.xib in Resources */,
 				E145035D1EB0B0D40092DFC1 /* OptimisticLikeButton.xib in Resources */,
 				E145033D1EB0B0D40092DFC1 /* C.json in Resources */,
@@ -495,6 +659,7 @@
 				E14503511EB0B0D40092DFC1 /* U.json in Resources */,
 				E145033C1EB0B0D40092DFC1 /* BlinkingCursor.json in Resources */,
 				E14503531EB0B0D40092DFC1 /* W.json in Resources */,
+				E14503991EB0CC200092DFC1 /* LaunchScreen.storyboard in Resources */,
 				E145034E1EB0B0D40092DFC1 /* R.json in Resources */,
 				E14503471EB0B0D40092DFC1 /* K.json in Resources */,
 				E145033F1EB0B0D40092DFC1 /* Comma.json in Resources */,
@@ -506,22 +671,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6BCA4BF2EE351533CA408D89 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C04087856825521B61850676 /* [CP] Copy Pods Resources */ = {
+		7C0A2D2736E6C8D95A37DFFF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,7 +686,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3A69B7787C146B90EA00830 /* [CP] Embed Pods Frameworks */ = {
+		830056EE58BE56C4990C6CD1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -549,6 +699,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F71D4130C39D4B762F1BE32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E14502F71EB0AC830092DFC1 /* SwiftLint */ = {
@@ -573,6 +738,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E145036D1EB0B1E90092DFC1 /* OptimisticUITests.swift in Sources */,
+				3E0733779D7C23A54E214C9E /* OPIComparisonConfiguratorTests.swift in Sources */,
+				74C0303C0480CD6F69522235 /* OPIComparisonViewTests.swift in Sources */,
+				58CC2AE9115DD0AFD8D72F78 /* OPIComparisionInteractorTests.swift in Sources */,
+				5843CEFFC3421A5904EA9009 /* OPIComparisionPresenterTests.swift in Sources */,
+				88D94B98141DC3647CB883B7 /* OPIComparisionRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,13 +752,24 @@
 			files = (
 				E14503591EB0B0D40092DFC1 /* AppDelegate.swift in Sources */,
 				E145035B1EB0B0D40092DFC1 /* LikeButton.swift in Sources */,
-				E145035A1EB0B0D40092DFC1 /* ComparisonViewController.swift in Sources */,
+				E14503901EB0C58D0092DFC1 /* OPIComparisonViewInput.swift in Sources */,
+				E145038D1EB0C58D0092DFC1 /* OPIComparisonRouter.swift in Sources */,
+				E145038B1EB0C58D0092DFC1 /* OPIComparisonModuleInput.swift in Sources */,
+				E145038C1EB0C58D0092DFC1 /* OPIComparisonPresenter.swift in Sources */,
+				E14503881EB0C58D0092DFC1 /* OPIComparisonInteractor.swift in Sources */,
 				E14503601EB0B0D40092DFC1 /* Message.swift in Sources */,
 				E145035C1EB0B0D40092DFC1 /* OptimisticLikeButton.swift in Sources */,
+				E14503911EB0C58D0092DFC1 /* OPIComparisonViewOutput.swift in Sources */,
+				E14503871EB0C58D0092DFC1 /* OPIComparisonInitializer.swift in Sources */,
 				E145035E1EB0B0D40092DFC1 /* RealisticLikeButton.swift in Sources */,
+				E145038F1EB0C58D0092DFC1 /* OPIComparisonViewController.swift in Sources */,
 				E14503651EB0B0D40092DFC1 /* ServerMock.swift in Sources */,
 				E14503631EB0B0D40092DFC1 /* RealisticMessage.swift in Sources */,
+				E14503891EB0C58D0092DFC1 /* OPIComparisonInteractorInput.swift in Sources */,
+				E145038E1EB0C58D0092DFC1 /* OPIComparisonRouterInput.swift in Sources */,
 				E14503611EB0B0D40092DFC1 /* OptimisticMessage.swift in Sources */,
+				E14503861EB0C58D0092DFC1 /* OPIComparisonConfigurator.swift in Sources */,
+				E145038A1EB0C58D0092DFC1 /* OPIComparisonInteractorOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,18 +784,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */ = {
+		E14503951EB0CC200092DFC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E145031D1EB0B0D30092DFC1 /* Base */,
+				E14503961EB0CC200092DFC1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		E145031E1EB0B0D30092DFC1 /* Main.storyboard */ = {
+		E14503971EB0CC200092DFC1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E145031F1EB0B0D30092DFC1 /* Base */,
+				E14503981EB0CC200092DFC1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -749,7 +930,7 @@
 		};
 		E1FA29DA1EADE7B70020E48F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68C4FA5C7C744D4411230E13 /* Pods-OptimisticUI.debug.xcconfig */;
+			baseConfigurationReference = D2478F66729DFBA03C308B58 /* Pods-OptimisticUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
@@ -758,7 +939,7 @@
 					"$(PROJECT_DIR)/Libs",
 				);
 				INFOPLIST_FILE = OptimisticUI/Resources/Plists/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -768,7 +949,7 @@
 		};
 		E1FA29DB1EADE7B70020E48F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D64442E032DCBA3BC6CC0DBB /* Pods-OptimisticUI.release.xcconfig */;
+			baseConfigurationReference = 000728740773A128F5CABA2B /* Pods-OptimisticUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
@@ -777,7 +958,7 @@
 					"$(PROJECT_DIR)/Libs",
 				);
 				INFOPLIST_FILE = OptimisticUI/Resources/Plists/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

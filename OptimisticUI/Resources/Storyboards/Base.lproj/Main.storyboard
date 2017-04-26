@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Comparison View Controller-->
+        <!--Comparision View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ComparisonViewController" customModule="OptimisticUI" customModuleProvider="target" sceneMemberID="viewController">
@@ -194,6 +194,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="CIO-Zz-zHc" customClass="ComparisionModuleInitializer" customModule="OptimisticUI" customModuleProvider="target">
+                    <connections>
+                        <outlet property="comparisionViewController" destination="BYZ-38-t0r" id="lbd-CO-hhB"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>

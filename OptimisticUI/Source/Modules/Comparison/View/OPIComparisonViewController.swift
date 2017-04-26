@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
-//  OptimisticUI
+//  ComparisionOPIComparisonViewController.swift
+//  OptimisticInterface
 //
-//  Created by Andrew Vergunov on 4/24/17.
+//  Created by Andrew Vergunov on 26/04/2017.
 //  Copyright © 2017 NIX. All rights reserved.
 //
 
 import UIKit
 
-class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
+class ComparisonViewController: UIViewController, OptimisticMessageDelegate, ComparisonViewInput {
     @IBOutlet weak var realisticMessage: RealisticMessage!
     @IBOutlet weak var optimisticMessage: OptimisticMessage!
     @IBOutlet weak var successOptimisticLike: OptimisticLikeButton!
@@ -20,9 +20,18 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate {
 
     private let errorMessage = "Error occured"
 
+    var output: ComparisonViewOutput!
+
+    // MARK: Life cycle
     override func viewDidLoad() {
+        super.viewDidLoad()
+        output.viewIsReady()
         configureLikeButtons()
         self.failureOptimisticMessage.delegate = self
+    }
+
+    // MARK: ComparisionViewInput
+    func setupInitialState() {
     }
 
     private func configureLikeButtons() {

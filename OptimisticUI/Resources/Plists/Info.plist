@@ -64,5 +64,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>TyphoonInitialAssemblies</key>
+    <array>
+        <string>ComparisionModuleConfigurator</string>
+    </array>
 </dict>
 </plist>

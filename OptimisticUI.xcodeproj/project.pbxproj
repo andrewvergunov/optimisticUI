@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		649CA26E1688F2376C1AFC66 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3663000D98F02C855FFB6061 /* Pods_OptimisticUI.framework */; };
+		3FFE92705249EAE563D0A8F0 /* Pods_OptimisticUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A216A7A818486BA1C237962 /* Pods_OptimisticUI.framework */; };
 		E14503361EB0B0D40092DFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */; };
 		E14503371EB0B0D40092DFC1 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */; };
 		E14503381EB0B0D40092DFC1 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */; };
@@ -56,7 +56,18 @@
 		E14503631EB0B0D40092DFC1 /* RealisticMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503321EB0B0D30092DFC1 /* RealisticMessage.swift */; };
 		E14503641EB0B0D40092DFC1 /* RealisticMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14503331EB0B0D30092DFC1 /* RealisticMessage.xib */; };
 		E14503651EB0B0D40092DFC1 /* ServerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14503351EB0B0D40092DFC1 /* ServerMock.swift */; };
+		E145036D1EB0B1E90092DFC1 /* OptimisticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145036C1EB0B1E90092DFC1 /* OptimisticUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E145036F1EB0B1E90092DFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FA29BF1EADE7B70020E48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FA29C61EADE7B70020E48F;
+			remoteInfo = OptimisticUI;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E1FA2A2A1EAE25390020E48F /* Embed Frameworks */ = {
@@ -72,9 +83,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0739AF7E92D28DA890C43EBC /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
-		3663000D98F02C855FFB6061 /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8009EB2DC8C9AE1079B257E /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
+		68C4FA5C7C744D4411230E13 /* Pods-OptimisticUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.debug.xcconfig"; sourceTree = "<group>"; };
+		6A216A7A818486BA1C237962 /* Pods_OptimisticUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptimisticUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64442E032DCBA3BC6CC0DBB /* Pods-OptimisticUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptimisticUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI.release.xcconfig"; sourceTree = "<group>"; };
 		E14502FA1EB0B0D30092DFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14502FB1EB0B0D30092DFC1 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
 		E14502FC1EB0B0D30092DFC1 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
@@ -123,22 +134,48 @@
 		E14503321EB0B0D30092DFC1 /* RealisticMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealisticMessage.swift; sourceTree = "<group>"; };
 		E14503331EB0B0D30092DFC1 /* RealisticMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealisticMessage.xib; sourceTree = "<group>"; };
 		E14503351EB0B0D40092DFC1 /* ServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMock.swift; sourceTree = "<group>"; };
+		E145036A1EB0B1E80092DFC1 /* OptimisticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimisticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E145036C1EB0B1E90092DFC1 /* OptimisticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimisticUITests.swift; sourceTree = "<group>"; };
+		E145036E1EB0B1E90092DFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1FA29C71EADE7B70020E48F /* OptimisticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimisticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1FA29D61EADE7B70020E48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E14503671EB0B1E80092DFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1FA29C41EADE7B70020E48F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649CA26E1688F2376C1AFC66 /* Pods_OptimisticUI.framework in Frameworks */,
+				3FFE92705249EAE563D0A8F0 /* Pods_OptimisticUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FC9495AE8FAB1BB4F5DA0C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68C4FA5C7C744D4411230E13 /* Pods-OptimisticUI.debug.xcconfig */,
+				D64442E032DCBA3BC6CC0DBB /* Pods-OptimisticUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92D2C250A214145497B050FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A216A7A818486BA1C237962 /* Pods_OptimisticUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E14502F81EB0B0D30092DFC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,14 +318,24 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		E145036B1EB0B1E90092DFC1 /* OptimisticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E145036C1EB0B1E90092DFC1 /* OptimisticUITests.swift */,
+				E145036E1EB0B1E90092DFC1 /* Info.plist */,
+			);
+			path = OptimisticUITests;
+			sourceTree = "<group>";
+		};
 		E1FA29BE1EADE7B70020E48F = {
 			isa = PBXGroup;
 			children = (
 				E1FA29C91EADE7B70020E48F /* OptimisticUI */,
+				E145036B1EB0B1E90092DFC1 /* OptimisticUITests */,
 				E1FA29C81EADE7B70020E48F /* Products */,
 				E1FA29DC1EADE82B0020E48F /* Libs */,
-				FBD46467611070CC1281BD95 /* Pods */,
-				E71BEB73F2318932CDFBBFC1 /* Frameworks */,
+				5FC9495AE8FAB1BB4F5DA0C2 /* Pods */,
+				92D2C250A214145497B050FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				E1FA29C71EADE7B70020E48F /* OptimisticUI.app */,
+				E145036A1EB0B1E80092DFC1 /* OptimisticUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,7 +353,6 @@
 			children = (
 				E14502F81EB0B0D30092DFC1 /* Resources */,
 				E14503211EB0B0D30092DFC1 /* Source */,
-				E1FA29D61EADE7B70020E48F /* Info.plist */,
 			);
 			path = OptimisticUI;
 			sourceTree = "<group>";
@@ -317,38 +364,39 @@
 			path = Libs;
 			sourceTree = "<group>";
 		};
-		E71BEB73F2318932CDFBBFC1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3663000D98F02C855FFB6061 /* Pods_OptimisticUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FBD46467611070CC1281BD95 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0739AF7E92D28DA890C43EBC /* Pods-OptimisticUI.debug.xcconfig */,
-				B8009EB2DC8C9AE1079B257E /* Pods-OptimisticUI.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E14503691EB0B1E80092DFC1 /* OptimisticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14503711EB0B1E90092DFC1 /* Build configuration list for PBXNativeTarget "OptimisticUITests" */;
+			buildPhases = (
+				E14503661EB0B1E80092DFC1 /* Sources */,
+				E14503671EB0B1E80092DFC1 /* Frameworks */,
+				E14503681EB0B1E80092DFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14503701EB0B1E90092DFC1 /* PBXTargetDependency */,
+			);
+			name = OptimisticUITests;
+			productName = OptimisticUITests;
+			productReference = E145036A1EB0B1E80092DFC1 /* OptimisticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E1FA29C61EADE7B70020E48F /* OptimisticUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1FA29D91EADE7B70020E48F /* Build configuration list for PBXNativeTarget "OptimisticUI" */;
 			buildPhases = (
-				474C8C092165A221185FFCB3 /* [CP] Check Pods Manifest.lock */,
+				6BCA4BF2EE351533CA408D89 /* [CP] Check Pods Manifest.lock */,
 				E1FA29C31EADE7B70020E48F /* Sources */,
 				E1FA29C41EADE7B70020E48F /* Frameworks */,
 				E1FA29C51EADE7B70020E48F /* Resources */,
 				E1FA2A2A1EAE25390020E48F /* Embed Frameworks */,
 				E14502F71EB0AC830092DFC1 /* SwiftLint */,
-				FD4A0D4075A90EBA25400BA1 /* [CP] Embed Pods Frameworks */,
-				1331A299A59015DB96CD38A7 /* [CP] Copy Pods Resources */,
+				C3A69B7787C146B90EA00830 /* [CP] Embed Pods Frameworks */,
+				C04087856825521B61850676 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,6 +417,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = NIX;
 				TargetAttributes = {
+					E14503691EB0B1E80092DFC1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YQ63ZZYZV7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1FA29C61EADE7B70020E48F;
+					};
 					E1FA29C61EADE7B70020E48F = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = YQ63ZZYZV7;
@@ -390,11 +444,19 @@
 			projectRoot = "";
 			targets = (
 				E1FA29C61EADE7B70020E48F /* OptimisticUI */,
+				E14503691EB0B1E80092DFC1 /* OptimisticUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E14503681EB0B1E80092DFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1FA29C51EADE7B70020E48F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,7 +506,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1331A299A59015DB96CD38A7 /* [CP] Copy Pods Resources */ = {
+		6BCA4BF2EE351533CA408D89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C04087856825521B61850676 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -459,19 +536,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		474C8C092165A221185FFCB3 /* [CP] Check Pods Manifest.lock */ = {
+		C3A69B7787C146B90EA00830 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E14502F71EB0AC830092DFC1 /* SwiftLint */ = {
@@ -488,24 +565,17 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		FD4A0D4075A90EBA25400BA1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptimisticUI/Pods-OptimisticUI-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E14503661EB0B1E80092DFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E145036D1EB0B1E90092DFC1 /* OptimisticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1FA29C31EADE7B70020E48F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,6 +593,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E14503701EB0B1E90092DFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FA29C61EADE7B70020E48F /* OptimisticUI */;
+			targetProxy = E145036F1EB0B1E90092DFC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E145031C1EB0B0D30092DFC1 /* LaunchScreen.storyboard */ = {
@@ -544,6 +622,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E14503721EB0B1E90092DFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ63ZZYZV7;
+				INFOPLIST_FILE = OptimisticUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimisticUI.app/OptimisticUI";
+			};
+			name = Debug;
+		};
+		E14503731EB0B1E90092DFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ63ZZYZV7;
+				INFOPLIST_FILE = OptimisticUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testnixsolutions.OptimisticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimisticUI.app/OptimisticUI";
+			};
+			name = Release;
+		};
 		E1FA29D71EADE7B70020E48F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -641,7 +749,7 @@
 		};
 		E1FA29DA1EADE7B70020E48F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0739AF7E92D28DA890C43EBC /* Pods-OptimisticUI.debug.xcconfig */;
+			baseConfigurationReference = 68C4FA5C7C744D4411230E13 /* Pods-OptimisticUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
@@ -660,7 +768,7 @@
 		};
 		E1FA29DB1EADE7B70020E48F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8009EB2DC8C9AE1079B257E /* Pods-OptimisticUI.release.xcconfig */;
+			baseConfigurationReference = D64442E032DCBA3BC6CC0DBB /* Pods-OptimisticUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
@@ -680,6 +788,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E14503711EB0B1E90092DFC1 /* Build configuration list for PBXNativeTarget "OptimisticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14503721EB0B1E90092DFC1 /* Debug */,
+				E14503731EB0B1E90092DFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E1FA29C21EADE7B70020E48F /* Build configuration list for PBXProject "OptimisticUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

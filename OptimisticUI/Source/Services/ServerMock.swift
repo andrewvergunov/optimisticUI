@@ -25,9 +25,11 @@ class ServerMock {
     }
 
     private func handle(success: Bool, completionBlock: @escaping CompletionBlock) {
-        let deadlineTime = DispatchTime.now() + .seconds(serverDelay)
+        let deadlineTime = DispatchTime.now()
+            + .seconds(serverDelay)
         DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
             completionBlock(success)
         }
     }
+
 }

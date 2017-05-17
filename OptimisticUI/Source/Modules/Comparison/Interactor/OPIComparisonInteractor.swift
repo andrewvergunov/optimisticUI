@@ -9,5 +9,4 @@
 class ComparisonInteractor: ComparisonInteractorInput {
 
     weak var output: ComparisonInteractorOutput!
-
 }

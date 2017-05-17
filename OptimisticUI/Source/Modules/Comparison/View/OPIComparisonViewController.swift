@@ -19,6 +19,7 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate, Com
     @IBOutlet weak var failureRealisticMessage: RealisticMessage!
 
     private let errorMessage = "Error occured"
+    private let message = "Hello world"
 
     var output: ComparisonViewOutput!
 
@@ -26,12 +27,12 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate, Com
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewIsReady()
-        configureLikeButtons()
-        self.failureOptimisticMessage.delegate = self
     }
 
     // MARK: ComparisionViewInput
     func setupInitialState() {
+        configureLikeButtons()
+        self.failureOptimisticMessage.delegate = self
     }
 
     private func configureLikeButtons() {
@@ -50,62 +51,35 @@ class ComparisonViewController: UIViewController, OptimisticMessageDelegate, Com
     }
 
     @objc private func didTappedOptimisticLike(recognizer: UITapGestureRecognizer) {
-        let server = ServerMock()
         guard let optimisticLike = recognizer.view as? OptimisticLikeButton else {
             return
         }
 
-        optimisticLike.set(liked: !optimisticLike.isLiked)
-
-        let completionBlock: ((Bool) -> Void) = { (isSuccess) in
-            if !isSuccess {
-                optimisticLike.set(liked: !optimisticLike.isLiked)
-            }
-        }
-
         if optimisticLike == self.successOptimisticLike {
-            server.sendSuccessLike(completion: completionBlock)
+            output.didTappedSuccessOptimisticLike()
         } else {
-            server.sendFailureLike(completion: completionBlock)
+            output.didTappedFailureOptimisticLike()
         }
     }
 
     @objc private func didTappedRealisticLike(recognizer: UITapGestureRecognizer) {
-        let server = ServerMock()
         guard let realisticLike = recognizer.view as? RealisticLikeButton else {
             return
         }
 
-        realisticLike.hideError()
-        realisticLike.startProgress()
-
-        let completionBlock: ((Bool) -> Void) = { (isSuccess) in
-            realisticLike.stopProgress()
-
-            if isSuccess {
-                realisticLike.set(liked: !realisticLike.isLiked)
-            } else {
-                realisticLike.show(failureMessage: self.errorMessage)
-            }
-        }
-
         if realisticLike == self.successRealisticLike {
-            server.sendSuccessLike(completion: completionBlock)
+            output.didTappedSuccessRealisticLike()
         } else {
-            server.sendFailureLike(completion: completionBlock)
+            output.didTappedFailureRealisticLike()
         }
     }
 
     @IBAction func sendMessageAction(_ sender: Any) {
-        let message = "Hello world!"
-        showRealistic(success: true, message: message)
-        showOptimistic(success: true, message: message)
+        output.didSendSuccess(message: self.message)
     }
 
     @IBAction func sendFailureMessage(_ sender: Any) {
-        let message = "Hello world!"
-        showRealistic(success: false, message: message)
-        showOptimistic(success: false, message: message)
+        output.didSendFailure(message: self.message)
     }
 
     private func showOptimistic(success: Bool, message: String) {

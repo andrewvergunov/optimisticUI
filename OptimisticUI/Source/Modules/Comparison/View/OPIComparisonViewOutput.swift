@@ -14,4 +14,13 @@ protocol ComparisonViewOutput {
     */
 
     func viewIsReady()
+
+    func didTappedSuccessOptimisticLike()
+    func didTappedFailureOptimisticLike()
+
+    func didTappedSuccessRealisticLike()
+    func didTappedFailureRealisticLike()
+
+    func didSendSuccess(message: String)
+    func didSendFailure(message: String)
 }
